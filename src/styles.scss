@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use "@fortawesome/fontawesome-free/css/all.css";
+@use '@angular/material' as mat;
+
+@include mat.core(); 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// #region [structured content]
+.sc-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sc-header,
+.sc-footer {
+    flex-shrink: 0;
+}
+
+.sc-content {
+    flex-grow: 1;
+    overflow: auto;
+}
+// #endregion
+

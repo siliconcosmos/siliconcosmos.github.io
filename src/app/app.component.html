@@ -1,0 +1,25 @@
+<div class="sc-wrapper">
+    <div class="sc-header">
+        <h1>test</h1>
+    </div>
+
+    <div class="sc-content">
+        <mat-sidenav-container class="">
+            <mat-sidenav #sidenav mode="over" opened>
+                some content for the side
+            </mat-sidenav>
+    
+            <p><button mat-button (click)="sidenav.toggle()">open</button></p>
+            <router-outlet></router-outlet>
+    
+        </mat-sidenav-container>
+    </div>
+
+    <div class="sc-footer">
+        <div>©️ Silicon Cosmos 2023</div>
+    </div>
+</div>
+
+
+
+
