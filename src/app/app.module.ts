@@ -8,6 +8,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { NavInteropService } from './services/nav-interop.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     MatSidenavModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    NavInteropService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
