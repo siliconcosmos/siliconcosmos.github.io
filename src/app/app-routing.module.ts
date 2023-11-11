@@ -5,6 +5,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
     { path: 'home', redirectTo: '', pathMatch: 'full' },
+    { path: 'quickref', component:NotFoundComponent },
     { path: '', component: HomeComponent },
     { path: '**', component: NotFoundComponent } // wildcard path when the path given is not found
 ];
