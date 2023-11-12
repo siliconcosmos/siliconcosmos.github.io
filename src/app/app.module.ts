@@ -9,12 +9,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { NavInteropService } from './services/nav-interop.service';
+import { QuickrefComponent } from './pages/quickref/quickref.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    QuickrefComponent
   ],
   imports: [
     BrowserModule,
