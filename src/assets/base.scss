@@ -1,3 +1,8 @@
+// #region [fontawesome]
+@use "@fortawesome/fontawesome-free/css/all.css";
+// #endregion
+
+// #region [vue defaults]
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -61,7 +66,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  // background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -83,4 +88,59 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #212121;
+  // background-image: url("../assets/background.svg");
+  // background-attachment: fixed;
 }
+body::after {
+  // background-color: #212121;
+  background-image: url("./background.svg");
+  // background-image: url("../assets/background.svg");
+  background-attachment: fixed; 
+  background-size: 25px 41px;
+  // background-size: 30px 52px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: -1;
+}
+// #endregion
+
+// #region [structured content]
+.sc-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-header,
+.sc-footer {
+  flex-shrink: 0;
+}
+
+.sc-content {
+  flex-grow: 1;
+  overflow: auto;
+}
+// #endregion
+
+// #region [scrollbars]
+body {
+  $scrollbar-color: #404040;
+  $scrollbar-size: 5px;
+
+  ::-webkit-scrollbar {
+      width: $scrollbar-size;
+      height: $scrollbar-size;
+  }
+  ::-webkit-scrollbar-thumb { 
+      background: $scrollbar-color;
+      border-radius: 5px;
+  }
+}
+// #endregion
