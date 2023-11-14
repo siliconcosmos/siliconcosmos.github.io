@@ -5,7 +5,11 @@
 <template>
     <div class="toolbar-root">
         <div class="main-column toolbar-main">
-            <div style="margin-top: 25px; margin-right:10px; "><i class="fa-solid fa-microchip fa-2xl"> </i> </div>
+            <div style="margin-top: 23px; margin-right:10px;">
+                <router-link to="/" class="sc-color-primary">
+                    <i class="fa-solid fa-microchip fa-2xl"></i>
+                </router-link>
+            </div>
             <div><h1>// </h1>
                 <span><slot></slot></span>
             </div>
@@ -47,6 +51,7 @@
 </style>
 
 <style>
+.toolbar-main,
 .toolbar-main h1,
 .toolbar-main h2,
 .toolbar-main h3,

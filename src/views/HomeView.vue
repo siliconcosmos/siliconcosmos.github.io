@@ -13,7 +13,7 @@ function increment() {
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <Toolbar>
+            <toolbar>
                 <h1>silicon cosmos</h1>
                 <template #right>
                     <!-- <nav>
@@ -21,7 +21,7 @@ function increment() {
                         <RouterLink to="/about">About</RouterLink>
                     </nav> -->
                 </template>
-            </Toolbar>
+            </toolbar>
         </div>
         
         <div class="sc-content">
@@ -31,7 +31,10 @@ function increment() {
                         <h2>// quickref</h2>
                     </template>
                     <template #footer>
-                        <div style="text-align:right;"><a>read more...</a></div>
+                        <div style="text-align:right;">
+                            <router-link to="/+/quickref" >read more...</router-link>
+                            <!-- <a >read more...</a> -->
+                        </div>
                     </template>
                     <template #cLeft>
                         <div class="capsule-img" style="margin-right: 20px;">

@@ -23,3 +23,19 @@ $whitespace-lg: 40px;
 $transition-quick: 300ms;
 $transition-slow: 500ms;
 // #endregion
+
+// #region [global classes]
+.sc-color-text {
+    color: $text
+}
+.sc-color-primary {
+    color: $primary
+}
+.sc-color-secondary {
+    color: $secondary
+}
+.sc-color-accent {
+    color: $accent
+}
+
+// #endregion
