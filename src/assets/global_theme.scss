@@ -1,8 +1,8 @@
 
 // #region [global theme]
-$mediaSm: 480px;
-$mediaMd: 640px;
-$mediaLg: 960px;
+$media-sm: 480px;
+$media-md: 640px;
+$media-lg: 1260px;
 
 $text: #f9fbf9;
 $background: #212121;
@@ -15,6 +15,10 @@ $background-dark: #111111;
 
 $border-bright: #606060;
 $border-dim: #303030;
+
+$whitespace-sm: 20px;
+$whitespace-md: 30px;
+$whitespace-lg: 40px;
 
 $transition-quick: 300ms;
 $transition-slow: 500ms;

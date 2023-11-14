@@ -38,22 +38,22 @@ import CapsuleLayout from './CapsuleLayout.vue';
 
 .capsule-border {
     display: inline-block;
-    border: 1px solid glob.$border-bright;
-    margin: 20px;
-    padding: 20px;
+    border: 1px solid glob.$border-dim;
+    margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
+    padding: glob.$whitespace-sm;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
     transition: padding glob.$transition-slow;
 }
 
-@media (min-width: glob.$mediaMd) {
+@media (min-width: glob.$media-md) {
     .capsule-border {
-        padding: 30px;
+        padding: glob.$whitespace-md;
     }
 }
 
-@media (min-width: glob.$mediaLg) {
+@media (min-width: glob.$media-lg) {
     .capsule-border {
-        padding: 40px;
+        padding: glob.$whitespace-lg;
     }
 }
 </style>
