@@ -1,5 +1,4 @@
-@use "./global_theme.scss" as glob;
-@import './base.scss';
+@use "./global.scss" as glob;
 
 *,
 *::before,
@@ -44,6 +43,7 @@ a {
     transition: glob.$transition-quick;
 }
 a:hover, a:focus {
+    color: desaturate($color: glob.$secondary, $amount: 50%);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     cursor: pointer;

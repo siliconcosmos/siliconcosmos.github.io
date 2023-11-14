@@ -12,7 +12,7 @@ import Capsule from '../components/capsule/Capsule.vue';
                 <h1>quickref</h1>
                 <template #right>
                     <nav>
-                        <RouterLink to="/">Home</RouterLink> | 
+                        <RouterLink class="sc-color-primary" to="/">Home</RouterLink> | 
                         <RouterLink to="/about">About</RouterLink>
                     </nav>
                 </template>
@@ -48,6 +48,6 @@ import Capsule from '../components/capsule/Capsule.vue';
 </template>
 
 <style scoped lang="scss">
-@use "../assets/global_theme.scss" as glob;
+@use "../assets/global.scss" as glob;
 
 </style>

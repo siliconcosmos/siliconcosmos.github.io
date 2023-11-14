@@ -96,7 +96,7 @@ function increment() {
 </template>
 
 <style scoped lang="scss">
-@use "../assets/global_theme.scss" as glob;
+@use "../assets/global.scss" as glob;
 
 .moon-yellow {
     filter: brightness(0) saturate(100%) invert(99%) sepia(57%) saturate(1438%) hue-rotate(18deg) brightness(98%) contrast(106%);

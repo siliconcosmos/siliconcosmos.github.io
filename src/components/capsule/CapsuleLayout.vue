@@ -34,7 +34,7 @@
 </template>
 
 <style scoped lang="scss">
-@use "../../assets/global_theme.scss" as glob;
+@use "../../assets/global.scss" as glob;
 
 .capsule-wrapper {
     overflow: auto;

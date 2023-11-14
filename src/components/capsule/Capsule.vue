@@ -34,7 +34,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
 </template>
 
 <style scoped lang="scss">
-@use "../../assets/global_theme.scss" as glob;
+@use "../../assets/global.scss" as glob;
 
 .capsule-border {
     display: inline-block;

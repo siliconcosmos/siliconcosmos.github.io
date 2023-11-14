@@ -21,7 +21,7 @@
 </template>
 
 <style scoped lang="scss">
-@use "../assets/global_theme.scss" as glob;
+@use "../assets/global.scss" as glob;
 .toolbar-root {
     // background-color: glob.$background-dark;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);

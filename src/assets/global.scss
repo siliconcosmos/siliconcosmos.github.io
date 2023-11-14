@@ -1,0 +1,83 @@
+@use "@fortawesome/fontawesome-free/css/all.css";
+
+// #region [global theme]
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+$media-sm: 480px;
+$media-md: 640px;
+$media-lg: 1260px;
+
+$text: #f9fbf9;
+$background: #212121;
+$primary: #b7ffe3;
+$secondary: #b38aff;
+$accent: #3b5249;
+
+$background-bright: #313131;
+$background-dark: #111111;
+
+$border-bright: #606060;
+$border-dim: #303030;
+
+$whitespace-sm: 20px;
+$whitespace-md: 30px;
+$whitespace-lg: 40px;
+
+$transition-quick: 300ms;
+$transition-slow: 500ms;
+// #endregion
+
+// #region [global selectors]
+.sc-color-text {
+    color: $text;
+}
+.sc-color-primary {
+    color: $primary;
+}
+.sc-color-primary:hover {
+    color: desaturate($color: $primary, $amount: 50%);
+}
+.sc-color-secondary {
+    color: $secondary;
+}
+.sc-color-accent {
+    color: $accent;
+}
+
+// #region [structured content]
+.sc-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.sc-header,
+.sc-footer {
+    flex-shrink: 0;
+}
+  
+.sc-content {
+    flex-grow: 1;
+    overflow: auto;
+}
+// #endregion
+
+// #region [scrollbars]
+body {
+    $scrollbar-color: $border-bright;
+    $scrollbar-size: 5px;
+  
+    ::-webkit-scrollbar {
+        width: $scrollbar-size;
+        height: $scrollbar-size;
+    }
+    ::-webkit-scrollbar-thumb { 
+        background: $scrollbar-color;
+        border-radius: 5px;
+    }
+}
+// #endregion
+// #endregion
