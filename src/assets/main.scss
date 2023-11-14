@@ -1,33 +1,48 @@
+@use "./global_theme.scss" as glob;
 @import './base.scss';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  font-weight: normal;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+body {
+    color: glob.$text;
+
+    background-color: glob.$background;
+    background-image: url(./background.svg);
+    background-attachment: fixed; 
+    background-size: 25px 41px;
+    // background-size: 30px 52px;
+    
+    font-family: Montserrat, 'Segoe UI', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, Roboto, monospace;
+    font-weight: 100;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.main-column {
+    max-width: glob.$mediaLg;
+    margin: 0 auto;
 }
 
-// @media (min-width: 1024px) {
-//   body {
-//     display: flex;
-//     place-items: center;
-//   }
-
-//   #app {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//     padding: 0 2rem;
-//   }
-// }
+a {
+    color: glob.$secondary;
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0);
+    transition: glob.$transition-quick;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+    text-decoration-thickness: 0px;
+    cursor: pointer;
+}

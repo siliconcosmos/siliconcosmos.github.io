@@ -34,13 +34,26 @@ import CapsuleLayout from './CapsuleLayout.vue';
 </template>
 
 <style scoped lang="scss">
+@use "../../assets/global_theme.scss" as glob;
+
 .capsule-border {
     display: inline-block;
-    border: 1px solid #606060;
+    border: 1px solid glob.$border-bright;
     margin: 20px;
-    padding: 10px;
-    // background-color: #111;
-    // background-color: rgba(17, 17, 17, .2);
-    background-color: transparentize($color: #111, $amount: 0.5);
+    padding: 20px;
+    background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
+    transition: padding glob.$transition-slow;
+}
+
+@media (min-width: glob.$mediaMd) {
+    .capsule-border {
+        padding: 30px;
+    }
+}
+
+@media (min-width: glob.$mediaLg) {
+    .capsule-border {
+        padding: 40px;
+    }
 }
 </style>
