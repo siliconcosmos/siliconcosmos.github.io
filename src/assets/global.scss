@@ -37,7 +37,7 @@ $transition-slow: 500ms;
 .sc-color-primary {
     color: $primary;
 }
-.sc-color-primary:hover {
+a.sc-color-primary:hover {
     color: desaturate($color: $primary, $amount: 50%);
 }
 .sc-color-secondary {

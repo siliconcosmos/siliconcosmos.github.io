@@ -6,7 +6,7 @@ import Toolbar from '../components/Toolbar.vue';
   <div class="sc-wrapper">
     <div class="sc-header">
         <Toolbar>
-            <h1>silicon cosmos</h1>
+            <h1>About</h1>
             <template #right>
               
             </template>

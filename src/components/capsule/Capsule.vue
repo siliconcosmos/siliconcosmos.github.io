@@ -7,7 +7,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
         <div class="capsule-border">
             <CapsuleLayout>
                 <template #header>
-                        <slot name="header"></slot>                    
+                    <slot name="header"></slot>                    
                 </template>
                 <template #footer>
                     <slot name="footer"></slot>
@@ -36,8 +36,12 @@ import CapsuleLayout from './CapsuleLayout.vue';
 <style scoped lang="scss">
 @use "../../assets/global.scss" as glob;
 
+.capsule-wrapper {        
+    text-align: justify;
+}
+
 .capsule-border {
-    display: inline-block;
+    // display: inline-block;
     border: 1px solid glob.$border-dim;
     margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
     padding: glob.$whitespace-sm;
