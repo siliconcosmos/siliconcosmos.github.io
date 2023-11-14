@@ -50,7 +50,7 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
                         direct downloads coming soon...
                     </template>
                     <template #right>                        
-                        <iframe frameborder="0" src="https://itch.io/embed/2362802?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="400" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
+                        <iframe frameborder="0" src="https://itch.io/embed/2362802?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="325" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
                     </template>
                     <div >
                         Available for your windows laptop or desktop 
