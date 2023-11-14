@@ -34,10 +34,14 @@
 </template>
 
 <style scoped lang="scss">
+@use "../../assets/global_theme.scss" as glob;
+
 .capsule-wrapper {
     overflow: auto;
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
     .capsule-center {
         flex-grow: 1;
     }
@@ -60,13 +64,34 @@
 
 .body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     .body-center {
         flex-grow: 1;
     }
     .body-left, .body-right {
         flex-shrink: 0;
+    }
+}
+
+
+@media (min-width: glob.$media-md) {
+    .capsule-wrapper {
+        flex-direction: row;
+        align-items: unset;
+    }
+    .body {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: glob.$media-lg) {
+    .capsule-wrapper {
+        flex-direction: row;
+        align-items: unset;
+    }
+    .body {
+        flex-direction: row;
     }
 }
 

@@ -28,7 +28,7 @@ function increment() {
             <div class="main-column">
                 <Capsule>
                     <template #header>
-                        <h2>quickref</h2>
+                        <h2>// quickref</h2>
                     </template>
                     <template #footer>
                         <div style="text-align:right;"><a>read more...</a></div>
@@ -45,7 +45,7 @@ function increment() {
 
                 <Capsule>
                     <template #header>
-                        <h2>moodial timer</h2>
+                        <h2>// moodial timer</h2>
                     </template>
                     <template #footer>
                         <div style="text-align:left;"><a>read more...</a></div>
@@ -101,36 +101,29 @@ function increment() {
 
 .capsule-img {
     width: 128px;
-    height: 100%;
-    // margin: auto;
-    // vertical-align: middle;
-    
-    // box-shadow: #222 0px 10px 20pt;
-    // border: 1pt solid #bebebe;
+    height: 128px;
     transition: glob.$transition-quick;
 
     img {
         width: 100%;
         height: 100%;
+        max-width: 256px;
+        max-height: 256px;
         object-fit: contain;
     }
 }
 
-// .capsule-img {
-//     width: 128px;
-//     height: 128px;
-//     transition: glob.$transition-slow;
-// }
 @media (min-width: glob.$media-md) {
     .capsule-img {
         width: 192px;
-        // height: 192px;
+        height: 192px;
+        align-self: center;
     }
 }
 @media (min-width: glob.$media-lg) {
     .capsule-img {
         width: 256px;
-        // height: 256px;
+        height: 256px;
     }
 }
 </style>
