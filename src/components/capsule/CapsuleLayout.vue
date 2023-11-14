@@ -41,7 +41,7 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: unset;
     .capsule-center {
         flex-grow: 1;
     }
@@ -79,6 +79,7 @@
     .capsule-wrapper {
         flex-direction: row;
         align-items: unset;
+        text-align: justify;
     }
     .body {
         flex-direction: row;

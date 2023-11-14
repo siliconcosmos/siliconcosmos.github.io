@@ -21,17 +21,28 @@
 .toolbar-root {
     // background-color: glob.$background-dark;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
-    border: 1px solid glob.$border-dim;
+    border-bottom: 1px solid glob.$border-dim;
     box-shadow: glob.$background-dark 0px 0px 30pt;
     position: sticky;
-    // z-index: 9000;
+    z-index: 9001;
 }
 .toolbar-main {
-    padding: 20px;
+    padding: 5px;
     display: flex;
+    transition: glob.$transition-quick;
 }
 .flex-spacer {
     flex: 1 1 auto;
+}
+
+@media (min-width: glob.$media-md) {
+    .toolbar-main {
+        padding: 20px;
+    }
+    
+}
+@media (min-width: glob.$media-lg) {
+
 }
 </style>
 
@@ -44,5 +55,11 @@
 .toolbar-main h6 {
     display: inline;
     font-weight: 100;
+}
+
+@media (max-width: 640px) {
+    .toolbar-main h1 {
+        font-size: 1.8em;
+    }
 }
 </style>
