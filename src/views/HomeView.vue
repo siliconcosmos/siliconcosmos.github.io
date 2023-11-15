@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
-import Toolbar from '../components/Toolbar.vue';
 import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 
 let counter:Ref<number> = ref(0);
@@ -88,6 +88,7 @@ function increment() {
                     </div>
                 </CapsuleLayout> -->
             </div>
+            <Footer></Footer>
         </div>
         
         <div class="sc-footer">
@@ -129,4 +130,4 @@ function increment() {
         height: 256px;
     }
 }
-</style>
+</sty

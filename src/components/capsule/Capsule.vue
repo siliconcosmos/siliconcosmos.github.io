@@ -59,6 +59,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
 @media (min-width: glob.$media-lg) {
     .capsule-border {
         padding: glob.$whitespace-lg;
+        margin: glob.$whitespace-lg glob.$whitespace-lg 0 glob.$whitespace-lg;
     }
 }
 </style>
