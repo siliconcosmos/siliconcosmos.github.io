@@ -41,7 +41,7 @@
     overflow: auto;
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
+    
     .capsule-center {
         flex-grow: 1;
     }
@@ -75,7 +75,7 @@
 }
 
 
-@media (min-width: glob.$media-md) {
+@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
     .capsule-wrapper {
         flex-direction: row;
         align-items: unset;

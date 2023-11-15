@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import Toolbar from '../components/Toolbar.vue';
+import Header from '../components/Header.vue';
 </script>
 
 <template>
   <div class="sc-wrapper">
     <div class="sc-header">
-        <Toolbar>
+        <Header>
             <h1>About</h1>
             <template #right>
               
             </template>
-        </Toolbar>
+        </Header>
     </div>
     <div class="sc-content">
       <div class="about">

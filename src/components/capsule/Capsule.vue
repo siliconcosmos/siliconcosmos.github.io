@@ -37,11 +37,11 @@ import CapsuleLayout from './CapsuleLayout.vue';
 @use "../../assets/global.scss" as glob;
 
 .capsule-wrapper {        
-    text-align: justify;
+    // text-align: justify;
 }
 
 .capsule-border {
-    display: inline-block;
+    // display: inline-block;
     border: 1px solid glob.$border-dim;
     margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
@@ -56,7 +56,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
     }
 }
 
-@media (min-width: glob.$media-lg) and (min-height: glob.$media-lg) {
+@media (min-width: glob.$media-lg) {
     .capsule-border {
         padding: glob.$whitespace-lg;
     }

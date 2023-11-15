@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
 import Toolbar from '../components/Toolbar.vue';
+import Header from '../components/Header.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 
 let counter:Ref<number> = ref(0);
@@ -13,7 +14,7 @@ function increment() {
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <toolbar>
+            <Header>
                 <h1>silicon cosmos</h1>
                 <template #right>
                     <!-- <nav>
@@ -21,7 +22,7 @@ function increment() {
                         <RouterLink to="/about">About</RouterLink>
                     </nav> -->
                 </template>
-            </toolbar>
+            </Header>
         </div>
         
         <div class="sc-content">
@@ -120,10 +121,9 @@ function increment() {
     .capsule-img {
         width: 192px;
         height: 192px;
-        align-self: center;
     }
 }
-@media (min-width: glob.$media-lg) and (min-height: glob.$media-lg) {
+@media (min-width: glob.$media-lg) {
     .capsule-img {
         width: 256px;
         height: 256px;

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
-import Toolbar from '../components/Toolbar.vue';
+import Header from '../components/Header.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
@@ -9,12 +9,11 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <Toolbar>
-                
-                    <span class="capsule-img" style="margin-right: 5px; width:25px; display: inline-block;">
-                        <img src="../assets/quickref_logo.svg" />
-                    </span>
-                    <h1>quickref</h1>
+            <Header>                
+                <span class="capsule-img" style="margin-right: 5px; width:25px; display: inline-block;">
+                    <img src="../assets/quickref_logo.svg" />
+                </span>
+                <h1>quickref</h1>
                 
                 <template #right>
                     <nav>
@@ -22,7 +21,7 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
                         <RouterLink to="/about">About</RouterLink>
                     </nav>
                 </template>
-            </Toolbar>
+            </Header>
         </div>
         
         <div class="sc-content">
@@ -54,7 +53,6 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
                     </template>
                     <div >
                         Available for your windows laptop or desktop 
-                        
                     </div>
                 </Capsule>
 
