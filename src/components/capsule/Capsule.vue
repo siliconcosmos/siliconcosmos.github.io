@@ -41,21 +41,22 @@ import CapsuleLayout from './CapsuleLayout.vue';
 }
 
 .capsule-border {
-    // display: inline-block;
+    display: inline-block;
     border: 1px solid glob.$border-dim;
-    margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
+    margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
     transition: padding glob.$transition-slow;
 }
 
-@media (min-width: glob.$media-md) {
+@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
     .capsule-border {
         padding: glob.$whitespace-md;
+        margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
     }
 }
 
-@media (min-width: glob.$media-lg) {
+@media (min-width: glob.$media-lg) and (min-height: glob.$media-lg) {
     .capsule-border {
         padding: glob.$whitespace-lg;
     }

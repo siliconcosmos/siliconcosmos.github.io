@@ -116,14 +116,14 @@ function increment() {
     }
 }
 
-@media (min-width: glob.$media-md) {
+@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
     .capsule-img {
         width: 192px;
         height: 192px;
         align-self: center;
     }
 }
-@media (min-width: glob.$media-lg) {
+@media (min-width: glob.$media-lg) and (min-height: glob.$media-lg) {
     .capsule-img {
         width: 256px;
         height: 256px;
