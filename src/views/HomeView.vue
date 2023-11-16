@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
 import Header from '../components/Header.vue';
-import Footer from '../components/Footer.vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 
@@ -32,38 +31,50 @@ function increment() {
             
                     <Capsule>
                         <template #header>
-                            <h2>// quickref</h2>
+                            <h2>// <router-link class="sc-color-text" to="/+/quickref">quickref</router-link></h2>
                         </template>
                         <template #footer>
                             <div style="text-align:right;">
-                                <router-link to="/+/quickref">read more...</router-link>
+                                <router-link to="/+/quickref">learn more...</router-link>
                             </div>
                         </template>
                         <template #cLeft>
-                            <div style="width: 100%; text-align: center;">
-                                <div class="project-img quickref-img">
-                                    <img src="../assets/quickref_logo.svg" />
+                                <div class="project-img quickref-img centralize">
+                                    <router-link class="no-decoration" to="/+/quickref">
+                                        <img src="../assets/quickref_logo.svg"/>
+                                    </router-link>
                                 </div>
-                            </div>
                         </template>
                         <div >
-                            I'm baby put a bird on it vaporware succulents enamel pin yes plz. Helvetica ennui offal vice flannel gochujang humblebrag blue bottle ethical <a>drinking vinegar tilde bespoke</a> twee shaman raclette. Poutine selvage street art squid, tote bag beard listicle plaid kale chips. Pug yr cliche, vegan church-key coloring book hexagon. Tattooed waistcoat pork belly big mood. Franzen bespoke jawn jianbing woke, skateboard bitters hell of. Mukbang cornhole green juice jawn slow-carb tousled vibecession dreamcatcher.
+                            <p>QuickRef is a timer-based drawing reference tool for gesture drawing and sketching.
+                            Use it to do long form timed practice, warm up sessions, or focused gesture practice. 
+                            Unlike other similar tools, QuickRef is specifically designed for using your <i>own</i> reference images on <i>your</i> computer.</p>
+                            <br><p>No static libraries, no mandatory subscription, no internet connection.</p>
                         </div>
                     </Capsule>
 
                     <Capsule>
                         <template #header>
-                            <h2>// moodial timer</h2>
+                            <h2>// <a class="sc-color-text" href="https://moondial.siliconcosmos.com">moodial timer</a></h2>
                         </template>
                         <template #footer>
-                            <div style="text-align:left;"><a>read more...</a></div>
-                        </template>
-                        <template #cRight>
-                            <div class="project-img moondial-img">
-                                <img src="../assets/moon.svg" class="moon-yellow"/>
+                            <div style="text-align:left;">
+                                <a href="https://github.com/siliconcosmos/moondial" target="_blank"><i class="fa-brands fa-github"></i> github</a>
+                                |
+                                <a href="https://www.npmjs.com/package/moondial" ><i class="fa-brands fa-npm"></i> install</a>
+                                | 
+                                <a href="https://moondial.siliconcosmos.com">learn more...</a>
                             </div>
                         </template>
-                        Moondial timer is a tiny stopwatch, chronometer, and countdown timer library with millisecond precision built in TypeScript.
+                        <template #cRight>
+                            <div class="project-img moondial-img centralize">
+                                <a class="no-decoration" href="https://moondial.siliconcosmos.com">
+                                    <img src="../assets/moon.svg" class="moon-yellow"/>
+                                </a>
+                            </div>
+                        </template>
+                        Moondial timer is a tiny stopwatch, chronometer, and countdown timer library with support for millisecond precision built in TypeScript. 
+                        Originally built as part of QuickRef, moondial provides high precision event-based clocks with a simple API.
                     </Capsule>
                 </div>
 
@@ -95,6 +106,13 @@ function increment() {
         max-height: 256px;
         object-fit: contain;
     }
+}
+.centralize {
+    margin: 0 auto;
+}
+.no-decoration {
+    text-decoration: none;
+    display: block;
 }
 
 @media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
