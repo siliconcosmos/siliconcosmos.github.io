@@ -67,10 +67,6 @@ function increment() {
                     </Capsule>
                 </div>
 
-                <template #toes>
-                    <Footer></Footer>
-                </template>
-
             </Body>
         </div>
             

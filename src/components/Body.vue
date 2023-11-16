@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
@@ -8,7 +8,7 @@
             <slot></slot>
         </div>
         <div class="toes">
-            <slot name="toes"></slot>
+            <slot name="toes"><Footer></Footer></slot>
         </div>
     </div>
 </template>

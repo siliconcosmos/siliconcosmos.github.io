@@ -46,7 +46,7 @@ import Toolbar from './Toolbar.vue';
     grid-template-columns: repeat(auto-fit, 1fr);
     column-gap: glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
-    min-height: 100px;
+    align-items: end;
 
     .left {
         text-align: center;
