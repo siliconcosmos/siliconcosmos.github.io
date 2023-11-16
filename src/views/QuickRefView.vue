@@ -3,6 +3,7 @@ import { ref, type Ref } from 'vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 import Capsule from '../components/capsule/Capsule.vue';
+import Body from '../components/Body.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
 </script>
@@ -26,39 +27,43 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
         </div>
         
         <div class="sc-content">
-            <div class="main-column">
+            <Body>
+                <div class="main-column">
 
-                <CapsuleLayout class="eyecatch">
-                    <template #left>
-                        <div class="eyecatch-text">
-                            <h2 class="sc-color-text">Gesture drawing with your own reference images!</h2>
+                    <CapsuleLayout class="eyecatch">
+                        <template #left>
+                            <div class="eyecatch-text">
+                                <h2 class="sc-color-text">Gesture drawing with your own reference images!</h2>
+                            </div>
+                        </template>
+
+                        <template #center>
+                            <div class="eyecatch-carousel">
+                                Add image carousel here
+                            </div>
+                        </template>
+                    </CapsuleLayout>
+
+                    <Capsule class="eyecatch">
+                        <template #header>
+                            <h2>Download</h2>
+                        </template>
+                        <template #footer>
+                            direct downloads coming soon...
+                        </template>
+                        <template #right>                        
+                            <iframe frameborder="0" src="https://itch.io/embed/2362802?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="325" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
+                        </template>
+                        <div >
+                            Available for your windows laptop or desktop 
                         </div>
-                    </template>
+                    </Capsule>
 
-                    <template #center>
-                        <div class="eyecatch-carousel">
-                            Add image carousel here
-                        </div>
-                    </template>
-                </CapsuleLayout>
-
-                <Capsule class="eyecatch">
-                    <template #header>
-                        <h2>Download</h2>
-                    </template>
-                    <template #footer>
-                        direct downloads coming soon...
-                    </template>
-                    <template #right>                        
-                        <iframe frameborder="0" src="https://itch.io/embed/2362802?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="325" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
-                    </template>
-                    <div >
-                        Available for your windows laptop or desktop 
-                    </div>
-                </Capsule>
-
-            </div>
-            <Footer></Footer>
+                </div>
+                <template #toes>
+                    <Footer></Footer>
+                </template>
+            </Body>
         </div>
         
         <div class="sc-footer">
