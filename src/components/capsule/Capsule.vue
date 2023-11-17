@@ -4,8 +4,8 @@ import CapsuleLayout from './CapsuleLayout.vue';
 
 <template>
     <div >
-        <div class="capsule-border">
-            <CapsuleLayout>
+        <div class="capsule-root">
+            <CapsuleLayout class="fill-wide">
                 <template #header>
                     <slot name="header"></slot>                    
                 </template>
@@ -19,11 +19,11 @@ import CapsuleLayout from './CapsuleLayout.vue';
                     <slot name="right"></slot>
                 </template>
                 
-                <template #cLeft>
-                    <slot name="cLeft"></slot>
+                <template #oLeft>
+                    <slot name="oLeft"></slot>
                 </template>
-                <template #cRight>
-                    <slot name="cRight"></slot>
+                <template #oRight>
+                    <slot name="oRight"></slot>
                 </template>
 
                 <slot></slot>
@@ -36,11 +36,12 @@ import CapsuleLayout from './CapsuleLayout.vue';
 <style scoped lang="scss">
 @use "../../assets/global.scss" as glob;
 
-.capsule-wrapper {        
-    // text-align: justify;
+:deep(.fill-wide) {
+    width: 100%;
+    // height: 100%; //TODO: why does this work on image carousel but not here. On this capsule it causes it to expand to viewport height...
 }
 
-.capsule-border {
+.capsule-root {
     // display: inline-block;
     border: 1px solid glob.$border-dim;
     margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
@@ -50,14 +51,14 @@ import CapsuleLayout from './CapsuleLayout.vue';
 }
 
 @media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
-    .capsule-border {
+    .capsule-root {
         padding: glob.$whitespace-md;
         margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
     }
 }
 
 @media (min-width: glob.$media-lg) {
-    .capsule-border {
+    .capsule-root {
         padding: glob.$whitespace-lg;
         margin: glob.$whitespace-lg glob.$whitespace-lg 0 glob.$whitespace-lg;
     }

@@ -38,12 +38,14 @@ function increment() {
                                 <router-link to="/+/quickref">learn more...</router-link>
                             </div>
                         </template>
-                        <template #cLeft>
-                                <div class="project-img quickref-img centralize">
+                        <template #oLeft>
+                            <div class="centralize">
+                                <div class="project-img quickref-img">
                                     <router-link class="no-decoration" to="/+/quickref">
                                         <img src="../assets/quickref_logo.svg"/>
                                     </router-link>
                                 </div>
+                            </div>
                         </template>
                         <div >
                             <p>QuickRef is a timer-based drawing reference tool for gesture drawing and sketching.
@@ -66,11 +68,14 @@ function increment() {
                                 <a href="https://moondial.siliconcosmos.com">learn more...</a>
                             </div>
                         </template>
-                        <template #cRight>
-                            <div class="project-img moondial-img centralize">
-                                <a class="no-decoration" href="https://moondial.siliconcosmos.com">
-                                    <img src="../assets/moon.svg" class="moon-yellow"/>
-                                </a>
+                        <template #oRight>
+                            <div class="centralize">
+
+                                <div class="project-img moondial-img">
+                                    <a class="no-decoration" href="https://moondial.siliconcosmos.com">
+                                        <img src="../assets/moon.svg" class="moon-yellow"/>
+                                    </a>
+                                </div>
                             </div>
                         </template>
                         Moondial timer is a tiny stopwatch, chronometer, and countdown timer library with support for millisecond precision built in TypeScript. 
@@ -108,7 +113,11 @@ function increment() {
     }
 }
 .centralize {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .no-decoration {
     text-decoration: none;

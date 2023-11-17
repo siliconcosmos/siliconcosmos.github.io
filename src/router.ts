@@ -23,6 +23,7 @@ const router = createRouter({
       // route level code-splitting
       component: () => import('./views/QuickRefView.vue')
     }
+    //TODO: Add 404 support to the view router
   ]
 })
 

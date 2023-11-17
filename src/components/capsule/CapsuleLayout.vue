@@ -1,7 +1,7 @@
 <template>
     <div class="capsule-wrapper">
         <div class="capsule-left">
-            <slot name="cLeft"></slot>
+            <slot name="oLeft"></slot>
         </div>
 
         <div class="trunk capsule-center">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="capsule-right">
-            <slot name="cRight"></slot>
+            <slot name="oRight"></slot>
         </div>
     </div>
 </template>
@@ -37,7 +37,7 @@
 @use "../../assets/global.scss" as glob;
 
 .capsule-wrapper {
-    width: 100%;
+    height: auto;
     overflow: auto;
     display: inline-flex;
     flex-direction: column;
