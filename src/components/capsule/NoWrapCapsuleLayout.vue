@@ -39,8 +39,8 @@
 .capsule-wrapper {
     height: auto;
     overflow: auto;
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     
     .capsule-center {
         flex-grow: 1;
@@ -64,7 +64,7 @@
 
 .body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     .body-center {
         flex-grow: 1;
@@ -74,37 +74,18 @@
     }
 }
 
-
-@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
-    .capsule-wrapper {
-        flex-direction: row;
-    }
-    .body {
-        flex-direction: row;
-    }
-}
-
-@media (min-width: glob.$media-lg) {
-    .capsule-wrapper {
-        flex-direction: row;
-    }
-    .body {
-        flex-direction: row;
-    }
-}
-
 // #region [debug colors]
-// .capsule-left, .capsule-right {
-//     background-color: darkorchid;
-// }
-// .trunk-header, .trunk-footer {
-//     background-color: navy;
-// }
-// .body-center {
-//     background-color: darkolivegreen;
-// }
-// .body-left, .body-right {
-//     background-color: darkcyan;
-// }
+.capsule-left, .capsule-right {
+    background-color: darkorchid;
+}
+.trunk-header, .trunk-footer {
+    background-color: navy;
+}
+.body-center {
+    background-color: darkolivegreen;
+}
+.body-left, .body-right {
+    background-color: darkcyan;
+}
 // #endregion
 </style>

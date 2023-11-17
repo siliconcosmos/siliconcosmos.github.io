@@ -2,8 +2,9 @@
 import { ref, type Ref } from 'vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
-import Capsule from '../components/capsule/Capsule.vue';
 import Body from '../components/Body.vue';
+import Capsule from '../components/capsule/Capsule.vue';
+import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
 </script>
@@ -39,12 +40,13 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
                         <template #center>
                             <div class="eyecatch-carousel">
-                                Add image carousel here
+                                <!-- Add image carousel here -->
+                                <ImageCarousel />
                             </div>
                         </template>
                     </CapsuleLayout>
 
-                    <Capsule class="eyecatch">
+                    <Capsule >
                         <template #header>
                             <h2>Download</h2>
                         </template>
@@ -87,10 +89,11 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 }
 .eyecatch-carousel {
     text-align: center; 
-    background-color: darkgray;
-    min-width: 400px;
-    min-height: 400px;
-    width: auto; 
+    background-color: #414141;
+    min-width: 325px;
+    min-height: 350px;
+    // width: auto; 
+    // height: 100%;
 }
 
 @media (min-width: glob.$media-md) {
