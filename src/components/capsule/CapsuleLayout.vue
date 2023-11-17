@@ -97,19 +97,15 @@
 
 // #region [debug colors]
 // .capsule-left, .capsule-right {
-//     flex-shrink: 0;
 //     background-color: darkorchid;
 // }
 // .trunk-header, .trunk-footer {
-//     flex-shrink: 0;
 //     background-color: navy;
 // }
 // .body-center {
-//     flex-grow: 1;
 //     background-color: darkolivegreen;
 // }
 // .body-left, .body-right {
-//     flex-shrink: 0;
 //     background-color: darkcyan;
 // }
 // #endregion
