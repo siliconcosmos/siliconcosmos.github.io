@@ -61,7 +61,7 @@ function increment() {
                             <div style="text-align:left;">
                                 <a href="https://github.com/siliconcosmos/moondial" target="_blank"><i class="fa-brands fa-github"></i> github</a>
                                 |
-                                <a href="https://www.npmjs.com/package/moondial" ><i class="fa-brands fa-npm"></i> install</a>
+                                <a href="https://www.npmjs.com/package/moondial" target="_blank"><i class="fa-brands fa-npm"></i> install</a>
                                 | 
                                 <a href="https://moondial.siliconcosmos.com">learn more...</a>
                             </div>
