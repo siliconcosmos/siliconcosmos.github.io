@@ -5,11 +5,11 @@ import Toolbar from './Toolbar.vue';
 <template>
     <Toolbar>
         <div class="main-column toolbar-main">
-            <div style="margin-top: 23px; margin-right:10px;">
-                <router-link to="/" class="sc-color-primary">
-                    <i class="fa-solid fa-microchip fa-2xl"></i>
-                </router-link>
-            </div>
+            <router-link to="/" class="sc-color-primary">
+                <span class="logo-img">
+                    <img src="../assets/sc-logo.svg"/>
+                </span>
+            </router-link>
             
             <div><h1>// </h1>
                 <span><slot></slot></span>
@@ -25,9 +25,25 @@ import Toolbar from './Toolbar.vue';
 <style scoped lang="scss">
 @use "../assets/global.scss" as glob;
 .toolbar-main {
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
     display: flex;
     transition: glob.$transition-quick;
+}
+.logo-img {
+    display: inline-block;
+    height: 30px; 
+    width: 30px; 
+    transform: translate(0%, 26%);
+    transition: glob.$transition-quick;
+    margin-right: 5px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        // max-width: 256px;
+        // max-height: 256px;
+        object-fit: contain;
+    }
 }
 .flex-spacer {
     flex: 1 1 auto;

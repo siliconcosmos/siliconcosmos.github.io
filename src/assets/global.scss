@@ -63,6 +63,14 @@ a.sc-color-primary:hover {
     flex-grow: 1;
     overflow: auto;
 }
+
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 // #endregion
 
 // #region [scrollbars]
