@@ -75,17 +75,17 @@
 }
 
 // #region [debug colors]
-.capsule-left, .capsule-right {
-    background-color: darkorchid;
-}
-.trunk-header, .trunk-footer {
-    background-color: navy;
-}
-.body-center {
-    background-color: darkolivegreen;
-}
-.body-left, .body-right {
-    background-color: darkcyan;
-}
+// .capsule-left, .capsule-right {
+//     background-color: darkorchid;
+// }
+// .trunk-header, .trunk-footer {
+//     background-color: navy;
+// }
+// .body-center {
+//     background-color: darkolivegreen;
+// }
+// .body-left, .body-right {
+//     background-color: darkcyan;
+// }
 // #endregion
 </style>

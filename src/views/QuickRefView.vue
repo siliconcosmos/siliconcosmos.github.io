@@ -7,22 +7,37 @@ import Capsule from '../components/capsule/Capsule.vue';
 import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
+const carouselImages = ref([
+    '/src/assets/quickref_images/QuickRef_6mACsYjRMX.png', 
+    // '/src/assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
+    // '/src/assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
+    // '/src/assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
+    // '/src/assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
+]);
+// const carouselImages = ref([
+//     '@assets/quickref_images/QuickRef_6mACsYjRMX.png', 
+//     '@assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
+//     '@assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
+//     '@assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
+//     '@assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
+// ]); 
+
 </script>
 
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
             <Header>                
-                <span class="capsule-img" style="margin-right: 5px; width:25px; display: inline-block;">
-                    <img src="../assets/quickref_logo.svg" />
+                <span class="header-img">
+                    <img src="../assets/quickref_logotype.svg" />
                 </span>
-                <h1>quickref</h1>
+                <!-- <h1>quickref</h1> -->
                 
                 <template #right>
-                    <nav>
+                    <!-- <nav>
                         <RouterLink class="sc-color-primary" to="/">Home</RouterLink> | 
                         <RouterLink to="/about">About</RouterLink>
-                    </nav>
+                    </nav> -->
                 </template>
             </Header>
         </div>
@@ -33,15 +48,15 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
                     <CapsuleLayout class="eyecatch">
                         <template #left>
-                            <div class="eyecatch-text">
+                            <div class="eyecatch-text centralize">
                                 <h2 class="sc-color-text">Gesture drawing with your own reference images!</h2>
                             </div>
                         </template>
 
                         <template #center>
                             <div class="eyecatch-carousel">
-                                <!-- Add image carousel here -->
-                                <ImageCarousel />
+                                <!-- <ImageCarousel /> -->
+                                <ImageCarousel :images="carouselImages" />
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -79,6 +94,7 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
 .eyecatch {
     width: 100%;
+    padding: 20px;
 }
 .eyecatch-text {
     padding: 40px; 
@@ -89,11 +105,28 @@ import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 }
 .eyecatch-carousel {
     text-align: center; 
-    background-color: #414141;
+    // background-color: #414141;
+    background-color: scale-color($color: glob.$background-dark, $alpha: -50%);
     min-width: 325px;
     min-height: 350px;
     // width: auto; 
     // height: 100%;
+    border: 1px solid glob.$border-dim;
+}
+.header-img {
+    display: inline-block;
+    height: 30px; 
+    width: 100px; 
+    transform: translate(0%, 8%);
+    transition: glob.$transition-quick;
+
+    img {
+        width: 100%;
+        height: 100%;
+        max-width: 256px;
+        max-height: 256px;
+        object-fit: contain;
+    }
 }
 
 @media (min-width: glob.$media-md) {
