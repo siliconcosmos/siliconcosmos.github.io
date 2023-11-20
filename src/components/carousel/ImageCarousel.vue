@@ -73,7 +73,7 @@ const props = defineProps<ImageCarouselProps>();
     // }
 
     text-align: center;
-    margin:auto;
+    margin: auto;
     // max-width: 100vw;
     // max-height: 100vh;
     max-width: 100%;

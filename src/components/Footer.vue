@@ -43,7 +43,6 @@ import Toolbar from './Toolbar.vue';
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
     column-gap: glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
     align-items: end;
