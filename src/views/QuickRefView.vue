@@ -45,15 +45,14 @@ const carouselImages = ref([
                     <CapsuleLayout class="eyecatch">
                         <template #left>
                             <div class="eyecatch-text centralize">
-                                <h1 class="sc-color-text">Practice gesture drawing with your own reference images!</h1>
+                                <h1 class="sc-color-secondary">Practice gesture drawing with your own reference images!</h1>
                             </div>
                         </template>
 
                         <template #center>
-                            <div class="eyecatch-carousel">
-                                <div class="tile-im">
-                                    <img src="@assets/quickref_images/QuickRef_6mACsYjRMX.png" />
-                                </div>
+                            <div class="eyecatch-carousel centralize">
+                                <img src="@assets/quickref_images/QuickRef_6mACsYjRMX.png"/>
+
                                 <!-- <ImageCarousel /> -->
                                 <!-- <ImageCarousel :images="carouselImages" /> -->
                             </div>
@@ -195,13 +194,20 @@ const carouselImages = ref([
     justify-items: center;
     transition: all glob.$transition-slow;
     font-size: small;
+
+    text-shadow: #000 0px 5px 10px;
 }
 .eyecatch-carousel {
-    text-align: center; 
+    text-align: center;
+
+    img {
+        box-shadow: #111 0px 5px 20px; 
+    }
 }
 .tagline-2 {
     height: 200px;
     padding: glob.$whitespace-sm;
+    text-shadow: #000 0px 5px 10px;
 }
 .cta-button {
     height: 50px;
@@ -210,7 +216,8 @@ const carouselImages = ref([
 
 .key-capsule {
     width: 100%;
-    padding: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
+    padding: glob.$whitespace-sm;
+    // padding: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
 }
 
 .key-grid {
@@ -218,6 +225,10 @@ const carouselImages = ref([
     column-gap: glob.$whitespace-sm;
     row-gap: glob.$whitespace-sm;
     place-items: center center;
+
+    div img {
+        box-shadow: #111 0px 5px 20px; 
+    }
 }
 
 .tile-heading {
@@ -243,7 +254,6 @@ const carouselImages = ref([
 
 img {
     width: 100%;
-    height: 100%;
     object-fit: contain;
 }
 
