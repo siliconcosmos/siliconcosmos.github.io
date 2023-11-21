@@ -83,7 +83,7 @@ const carouselImages = ref([
                         
                     <Capsule>
                         <template #header>
-                            <h1 class="centralize tile-heading">Create reference libraries</h1>
+                            <h1 class="centralize tile-heading">Create Reference Libraries</h1>
                         </template>
                         <template #left>
                             <div style="width:100%" class="centralize">
@@ -104,7 +104,7 @@ const carouselImages = ref([
                     
                     <Capsule>
                         <template #header>
-                            <h1 class="centralize tile-heading">Configure your session</h1>
+                            <h1 class="centralize tile-heading">Configure Your Session</h1>
                         </template>
                         <template #left>
                             <div style="width:100%" class="centralize">
