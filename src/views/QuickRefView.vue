@@ -160,7 +160,8 @@ const carouselImages = ref([
                             </div>
                         </template>
 
-                        <div class="centralize tile-body">
+                        <!-- <div class="centralize tile-body"> -->
+                        <div class="centralize" style="padding-bottom: 30px">
                             <p>
                                 QuickRef is available FREE for your windows laptop or desktop through itch.io
                             </p>
@@ -235,7 +236,8 @@ const carouselImages = ref([
     padding-bottom: 15px;
 }
 .tile-body {
-    padding: glob.$whitespace-sm;
+    padding-top: glob.$whitespace-sm;
+    text-align: left;
 }
 .tile-img {
     display: inline-block;
@@ -270,11 +272,19 @@ img {
     .key-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .tile-body {
+        padding-top: unset;
+        padding-left: glob.$whitespace-md;
+        line-height: 2em;
+    }
 }
 @media (min-width: glob.$media-lg) {
     .eyecatch-text {
         max-width: 600px; 
         font-size: x-large;
+    }
+    .tile-body {
+        padding-left: glob.$whitespace-lg;
     }
 }
 
