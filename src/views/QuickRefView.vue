@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
+import { useSeoMeta } from '@unhead/vue'
+import * as Vue from 'vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 import Body from '../components/Body.vue';
@@ -7,7 +9,16 @@ import Capsule from '../components/capsule/Capsule.vue';
 import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
-const carouselImages = ref([
+useSeoMeta({
+  title: 'QuickRef',
+  description: 'QuickRef - a free drawing reference tool for artists',
+  ogDescription: 'QuickRef - a free drawing reference tool for artists',
+  ogTitle: 'QuickRef',
+  ogImage: 'https://i.imgur.com/EKD6Fe4.png',
+  twitterCard: 'summary_large_image',
+})
+
+const carouselImages = Vue.ref([
     '/src/assets/quickref_images/QuickRef_6mACsYjRMX.png', 
     // '/src/assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
     // '/src/assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
