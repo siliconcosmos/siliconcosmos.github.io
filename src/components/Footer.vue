@@ -13,8 +13,13 @@ import Toolbar from './Toolbar.vue';
                 <slot></slot>
             </div>
             <div class="right">
+                <p><a href="https://twitter.com/siliconcosmos" target="_blank">twitter <i class="fa-brands fa-twitter"></i></a></p>
+                <p><a href="https://github.com/siliconcosmos" target="_blank">github <i class="fa-brands fa-github"></i></a></p>
+                <p><a href="https://siliconcosmos.itch.io" target="_blank">itch.io <i class="fa-brands fa-itch-io"></i></a></p>
+
+                <!-- <p><a href="https://twitter.com/siliconcosmos" target="_blank"><i class="fa-brands fa-twitter"></i> twitter</a></p>
                 <p><a href="https://github.com/siliconcosmos" target="_blank"><i class="fa-brands fa-github"></i> github</a></p>
-                <p><a href="https://siliconcosmos.itch.io" target="_blank"><i class="fa-brands fa-itch-io"></i> itch.io</a></p>
+                <p><a href="https://siliconcosmos.itch.io" target="_blank"><i class="fa-brands fa-itch-io"></i> itch.io</a></p> -->
             </div>
         </div>
 
