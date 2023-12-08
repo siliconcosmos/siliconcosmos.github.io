@@ -95,7 +95,7 @@ const carouselImages = Vue.ref([
                         
                     <Capsule>
                         <template #header>
-                            <h1 class="centralize tile-heading">Create Reference Libraries</h1>
+                            <h1 class="centralize-h tile-heading">Create Reference Libraries</h1>
                         </template>
                         <template #left>
                             <div style="width:100%" class="centralize">
@@ -116,7 +116,7 @@ const carouselImages = Vue.ref([
                     
                     <Capsule>
                         <template #header>
-                            <h1 class="centralize tile-heading">Configure Your Session</h1>
+                            <h1 class="centralize-h tile-heading">Configure Your Session</h1>
                         </template>
                         <template #left>
                             <div style="width:100%" class="centralize">
@@ -139,7 +139,7 @@ const carouselImages = Vue.ref([
 
                     <Capsule>
                         <template #header>
-                            <h1 class="centralize tile-heading">Practice Offline</h1>
+                            <h1 class="centralize-h tile-heading">Practice Offline</h1>
                         </template>
                         <template #left>
                             <div style="width:100%" class="centralize">
@@ -161,13 +161,13 @@ const carouselImages = Vue.ref([
 
                     <Capsule id="download">
                         <template #header>
-                            <h1 class="centralize tile-heading">Download</h1>
+                            <h1 class="centralize-h tile-heading">Download</h1>
                         </template>
                         <template #footerr>
                             <!-- direct downloads coming soon... -->
                         </template>
                         <template #footer>
-                            <div class="centralize">                                
+                            <div class="centralize-h">                                
                                 <iframe frameborder="0" src="https://itch.io/embed/2362802?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="552" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
                             </div>
                         </template>
