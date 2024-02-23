@@ -47,10 +47,10 @@ useSeoMeta({
                             <div class="centralize">
                                 <div class="project-img quickref-img">
                                     <!-- link removed becasue nuxt broke my css image scaling -->
-                                    <!-- <nuxt-link class="no-decoration" to="/quickref">
+                                    <nuxt-link class="no-decoration" to="/quickref">
                                         <img src="~/assets/quickref_logo.svg"/>
-                                    </nuxt-link> -->
-                                    <img src="~/assets/quickref_logo.svg"/>
+                                    </nuxt-link>
+                                    <!-- <img src="~/assets/quickref_logo.svg"/> -->
                                 </div>
                             </div>
                         </template>
@@ -79,10 +79,10 @@ useSeoMeta({
                             <div class="centralize">
                                 <div class="project-img moondial-img">
                                     <!-- link removed becasue nuxt broke my css image scaling -->
-                                    <!-- <a class="no-decoration" href="https://moondial.siliconcosmos.com">
+                                    <a class="no-decoration" href="https://moondial.siliconcosmos.com">
                                         <img src="../assets/moon.svg" class="moon-yellow"/>
-                                    </a> -->
-                                    <img src="../assets/moon.svg" class="moon-yellow"/>
+                                    </a>
+                                    <!-- <img src="../assets/moon.svg" class="moon-yellow"/> -->
                                 </div>
                             </div>
                         </template>
@@ -112,12 +112,13 @@ useSeoMeta({
     height: 128px;
     transition: glob.$transition-quick;
 
-    img {
+    a > img {
         width: 100%;
         height: 100%;
         max-width: 256px;
         max-height: 256px;
         object-fit: contain;
+        display: inline-block;
     }
 }
 .centralize {
@@ -129,7 +130,6 @@ useSeoMeta({
 }
 .no-decoration {
     text-decoration: none;
-    display: block;
 }
 
 @media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
