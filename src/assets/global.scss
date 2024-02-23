@@ -1,0 +1,140 @@
+@use "@fortawesome/fontawesome-free/css/all.css";
+
+// #region [global theme]
+@font-face {
+    font-family: Montserrat;
+    src: url('~/assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+$media-sm: 480px;
+$media-md: 640px;
+$media-lg: 1260px;
+
+$text: #f9fbf9;
+$background: #212121;
+$primary: #7BFFCC;
+// $primary: #b7ffe3;
+$secondary: #b38aff;
+$accent: #2C7F60;
+// $accent: #3b5249;
+
+$background-bright: #313131;
+$background-dark: #111111;
+
+$border-bright: #606060;
+$border-dim: #303030;
+
+$primary-hover: scale-color($color: $primary, $whiteness: 30%);
+$secondary-hover: scale-color($color: $secondary, $whiteness: 40%);
+
+$whitespace-sm: 20px;
+$whitespace-md: 30px;
+$whitespace-lg: 40px;
+
+$transition-quick: 300ms;
+$transition-slow: 500ms;
+// #endregion
+
+// #region [global selectors]
+.sc-color-text {
+    color: $text;
+}
+.sc-color-primary {
+    color: $primary;
+}
+a.sc-color-primary:hover {
+    color: $primary-hover;
+}
+.sc-color-secondary {
+    color: $secondary;
+}
+a.sc-color-secondary:hover {
+    color: $secondary-hover;
+}
+.sc-color-accent {
+    color: $accent;
+}
+
+.sc-button {
+    padding: 5px 10px 5px 10px;
+    color: $background;
+    background-color: $text;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 5px;
+}
+.sc-button.sc-color-primary {
+    background-color: $primary;
+    color: #fff;
+    text-shadow: #000 0px 0px 7.5px;
+}
+a.sc-button.sc-color-primary:hover {
+    background-color: $primary-hover;
+    color: #fff;
+}
+.sc-button.sc-color-secondary {
+    background-color: $secondary;
+    color: #fff;
+    text-shadow: #000 0px 0px 7.5px;
+}
+a.sc-button.sc-color-secondary:hover {
+    background-color: $secondary-hover;
+    color: #fff;
+}
+
+// #region [structured content]
+.sc-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.sc-header,
+.sc-footer {
+    flex-shrink: 0;
+}
+  
+.sc-content {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.centralize-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    // height: 100%;
+}
+// #endregion
+
+// #region [scrollbars]
+body {
+    $scrollbar-color: $border-bright;
+    $scrollbar-size: 5px;
+
+    // disabled for now since chrome handles scrollbar styling in a weird way now
+    // scrollbar-color: $scrollbar-color rgba(0,0,0,0);
+    // scrollbar-width: thin;
+  
+    ::-webkit-scrollbar {
+        width: $scrollbar-size;
+        height: $scrollbar-size;
+    }
+    ::-webkit-scrollbar-thumb { 
+        background: $scrollbar-color;
+        border-radius: 5px;
+    }
+}
+// #endregion
+// #endregion

@@ -1,0 +1,53 @@
+@use "./global.scss" as glob;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    position: relative;
+    min-height: 100vh;
+    color: glob.$text;
+
+    background-color: glob.$background;
+    background-image: url(~/assets/background.svg);
+    background-attachment: fixed; 
+    background-size: 25px 41px;
+    // background-size: 30px 52px;
+    
+    font-family: Montserrat, 'Segoe UI', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, Roboto, monospace;
+    font-weight: 500;
+}
+
+.main-column {
+    max-width: glob.$media-lg;
+    margin: 0 auto;
+}
+
+a {
+    color: glob.$secondary;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0);
+    text-decoration-thickness: 1px;
+    transition: glob.$transition-quick;
+}
+a:hover, a:focus {
+    color: desaturate($color: glob.$secondary, $amount: 50%);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
