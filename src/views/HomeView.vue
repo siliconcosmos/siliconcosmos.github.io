@@ -6,9 +6,9 @@ import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 
 useSeoMeta({
-  title: 'silicon cosmos',
-  description: 'Silicon Cosmos is creating software to make your experience learning to draw better',
-  ogDescription: 'Silicon Cosmos is creating software to make your experience learning to draw better'
+    title: 'silicon cosmos',
+    description: 'Silicon Cosmos is creating software to make your experience learning to draw better',
+    ogDescription: 'Silicon Cosmos is creating software to make your experience learning to draw better'
 });
 </script>
 
