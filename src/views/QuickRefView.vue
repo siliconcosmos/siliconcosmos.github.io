@@ -177,7 +177,7 @@ const carouselImages = Vue.ref([
                             <div>
                                 <p>QuickRef is available FREE for your windows laptop or desktop through itch.io</p>
                                 <br/>
-                                <p>You can use it in these langauges: English, Français, Español, Deutsch, Русский</p>
+                                <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
                             </div>
                         </div>
                     </Capsule>
