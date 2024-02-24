@@ -1,1 +1,15 @@
-{}
+{
+    "version": "v0.7.6",
+    "notes": "Test version",
+    "pub_date": "2024-02-23T23:32:11Z",
+    "platforms": {
+        "darwin-universal": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG5MY1hmQU4xeVJnZVJ5V1Bsc2ljUXJjemdFWDRLN2E0Q1F0RVFjS0t0ckt6a2pkWVRWMXorNnRGSThkODE3b1ZwancxZmFycDJaeGVVcjd3eWhqcGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA4NzM4NzcyCWZpbGU6UXVpY2tSZWZfMC43LjZfeDY0LXNldHVwLm5zaXMuemlwCnRFd1VzaTlOQ3ZuWGN6cXJzQ2xoWXRibUdCRW04UHdmM1JRd0RuSkdtSXBEZEtxYjJMc2hHU294MHd0UW1sNWtZYjJYbkYxbjBQRnhFcWE5ZTZUa0R3PT0K",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef_0.7.6_x64-setup.nsis.zip"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG5MY1hmQU4xeVJnZVJ5V1Bsc2ljUXJjemdFWDRLN2E0Q1F0RVFjS0t0ckt6a2pkWVRWMXorNnRGSThkODE3b1ZwancxZmFycDJaeGVVcjd3eWhqcGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA4NzM4NzcyCWZpbGU6UXVpY2tSZWZfMC43LjZfeDY0LXNldHVwLm5zaXMuemlwCnRFd1VzaTlOQ3ZuWGN6cXJzQ2xoWXRibUdCRW04UHdmM1JRd0RuSkdtSXBEZEtxYjJMc2hHU294MHd0UW1sNWtZYjJYbkYxbjBQRnhFcWE5ZTZUa0R3PT0K",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef_0.7.6_x64-setup.nsis.zip"
+        }
+    }
+}
