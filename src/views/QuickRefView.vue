@@ -14,7 +14,7 @@ useSeoMeta({
     description: 'QuickRef - a free drawing reference tool for artists',
     ogDescription: 'QuickRef - a free drawing reference tool for artists',
     ogTitle: 'QuickRef',
-    ogImage: 'https://i.imgur.com/EKD6Fe4.png',
+    ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
     ogUrl: 'https://quickref.app',
     twitterCard: 'summary_large_image',
 });
