@@ -1,5 +1,5 @@
 # https://github.com/actions/deploy-pages#usage
-name: Deploy Nuxt 3 to GitHub Pages
+name: Deploy to GitHub Pages
 on:
   workflow_dispatch:
   push:
