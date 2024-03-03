@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Toolbar from './Toolbar.vue';
+import KofiDonate from '~/components/KofiDonate.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import Toolbar from './Toolbar.vue';
 
             <div class="flex-spacer"></div>
 
+            <KofiDonate></KofiDonate>
             <div><slot name="right"></slot></div>
         </div>
     </Toolbar>
