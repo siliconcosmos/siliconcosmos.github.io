@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import QuickRefView from '../views/QuickRefView.vue';
+import QuickRefView from '~/views/QuickRefView.vue';
 
 </script>
 

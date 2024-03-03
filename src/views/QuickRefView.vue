@@ -2,12 +2,12 @@
 import { ref, type Ref } from 'vue';
 import { useSeoMeta } from '@unhead/vue'
 import * as Vue from 'vue';
-import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
+import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
     title: 'QuickRef',
@@ -39,15 +39,7 @@ const carouselImages = Vue.ref([
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <Header>                
-                <span class="header-img">
-                    <img src="../assets/quickref_logotype.svg" />
-                </span>
-                <!-- <h1>quickref</h1> -->
-                
-                <template #right>
-                </template>
-            </Header>
+            <QuickRefHeader></QuickRefHeader>
         </div>
         
         <div class="sc-content">
@@ -178,6 +170,8 @@ const carouselImages = Vue.ref([
                                 <p>QuickRef is available FREE for your windows laptop or desktop through itch.io</p>
                                 <br/>
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
+                                <br>
+                                <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link></p>
                             </div>
                         </div>
                     </Capsule>
