@@ -39,7 +39,7 @@
 .capsule-wrapper {
     height: auto;
     // overflow: auto; // disabled because nuxt broke the box sizing and cause perpetual scrollbars for some reason...
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     
     .capsule-center {

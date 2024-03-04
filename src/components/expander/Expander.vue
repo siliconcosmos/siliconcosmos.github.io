@@ -11,7 +11,7 @@ function toggleExpand() {
 
 <template>
     <div class="expander">
-        <div class="summary-toggle sc-color-secondary" @click="toggleExpand">
+        <div class="summary-toggle sc-color-primary" @click="toggleExpand">
             <span class="toggle-icon centralize">
                 <span class="fa-solid" :class="{ 'fa-chevron-right': !isExpanded, 'fa-chevron-down': isExpanded }"></span>
             </span>
@@ -36,7 +36,7 @@ function toggleExpand() {
     width: 30px;
     height: 30px;
     text-align: center;
-    color: glob.$primary
+    color: glob.$secondary
 }
 
 .body {
