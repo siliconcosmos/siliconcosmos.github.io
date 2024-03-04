@@ -17,7 +17,7 @@ function toggleExpand() {
             </span>
             <h2><slot></slot></h2>
         </div>
-        <div class="body" :class="{ expanded: isExpanded }">
+        <div class="content" :class="{ expanded: isExpanded }">
             <slot name="content"></slot>
         </div>
     </div>
@@ -39,7 +39,7 @@ function toggleExpand() {
     color: glob.$secondary
 }
 
-.body {
+.content {
     height: 0px;
     overflow: hidden;
     visibility: hidden;
