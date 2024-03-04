@@ -171,7 +171,7 @@ const carouselImages = Vue.ref([
                                 <br/>
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
                                 <br>
-                                <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link></p>
+                                <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link></p>
                             </div>
                         </div>
                     </Capsule>
