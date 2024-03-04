@@ -5,7 +5,6 @@ import * as Vue from 'vue';
 import Footer from '../components/Footer.vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
-import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
@@ -30,7 +29,7 @@ useSeoMeta({
 
             <Body>
                 <div class="main-column">
-                    <div class="centralize page-heading">
+                    <div class="centralize page-heading sc-header-shadow">
                         <h1>QuickRef - Release Notes</h1>                        
                     </div>
 
@@ -96,7 +95,6 @@ useSeoMeta({
 
 .page-heading {
     padding-top: glob.$whitespace-md;
-    text-shadow: #000 0px 5px 10px;
 }
 
 .notes-tile {

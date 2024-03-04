@@ -3,11 +3,11 @@ import CapsuleLayout from './CapsuleLayout.vue';
 </script>
 
 <template>
-    <div >
+    <div>
         <div class="capsule-root">
             <CapsuleLayout class="fill-wide">
                 <template #header>
-                    <slot name="header"></slot>                    
+                    <slot name="header"></slot>
                 </template>
                 <template #footer>
                     <slot name="footer"></slot>
