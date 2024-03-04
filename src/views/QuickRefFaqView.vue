@@ -35,6 +35,15 @@ useSeoMeta({
 
                     <Capsule>
                         <Expander>
+                            Q: Is there a mobile version of QuickRef?
+                            <template #content>
+                                <p>I would like to have a mobile version of QuickRef for iOS and Android in the future, but at this time there is no mobile version. I am focused on the desktop versions for now.</p>
+                            </template>
+                        </Expander>
+                    </Capsule>
+
+                    <Capsule id="windows_install">
+                        <Expander>
                             Q: Why can't I install on Windows?
                             <template #content>
                                 <p>Windows may warn you that the app is from an unknown publisher. This is because the app is not yet digitally signed and software signing certificates cost $500-$1000 USD. I can't justify that cost for a free app, so for now you may need to dismiss the SmartScreen warning. I'm sorry about this inconvenience! </p>
@@ -53,7 +62,7 @@ useSeoMeta({
                         </Expander>
                     </Capsule>
 
-                    <Capsule>
+                    <Capsule id="mac_install">
                         <Expander>
                             Q: Why won't the app open on MacOS?
                             <template #content>
