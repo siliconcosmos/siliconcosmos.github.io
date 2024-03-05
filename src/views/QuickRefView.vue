@@ -170,8 +170,8 @@ const carouselImages = Vue.ref([
                                 <p>QuickRef is available FREE for your windows laptop or desktop through itch.io</p>
                                 <br/>
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
-                                <br>
-                                <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link></p>
+                                <!-- <br>
+                                <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link></p> -->
                             </div>
                         </div>
                     </Capsule>
