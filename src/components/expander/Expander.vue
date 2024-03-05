@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 // FIXME - setting this to true by default for now due to ghpages incompatability
-const isExpanded = ref(true); 
+const isExpanded = ref(false); 
 
 function toggleExpand() {
     isExpanded.value = !isExpanded.value;
