@@ -3,9 +3,13 @@
     "notes": "Test version",
     "pub_date": "2024-02-23T23:32:11Z",
     "platforms": {
-        "darwin-universal": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG5MY1hmQU4xeVJnZVJ5V1Bsc2ljUXJjemdFWDRLN2E0Q1F0RVFjS0t0ckt6a2pkWVRWMXorNnRGSThkODE3b1ZwancxZmFycDJaeGVVcjd3eWhqcGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA4NzM4NzcyCWZpbGU6UXVpY2tSZWZfMC43LjZfeDY0LXNldHVwLm5zaXMuemlwCnRFd1VzaTlOQ3ZuWGN6cXJzQ2xoWXRibUdCRW04UHdmM1JRd0RuSkdtSXBEZEtxYjJMc2hHU294MHd0UW1sNWtZYjJYbkYxbjBQRnhFcWE5ZTZUa0R3PT0K",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef_0.7.6_x64-setup.nsis.zip"
+        "darwin-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef.app.tar.gz"
+        },
+        "darwin-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef.app.tar.gz"
         },
         "windows-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHFUSWNBSGlIVFVFakdzRkNFUngyRjZvemVBeWU1R3p0K2ZDaCtlL3MwbEtQZ1NNVHFEdHYwQTBHak50VzI2ckNYeFB0YmsyS056U3d3NSt6MHlpQXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA4ODE5MzMwCWZpbGU6UXVpY2tSZWZfMC43LjZfeDY0LXNldHVwLm5zaXMuemlwCnBJMHFheUZESWlHUUUzZEh5dzgrYkpTLzR5RHRtdUFlYmR3dytoYTJEc1d0UmtTTWM2OWtiNFpLZ3FFM1k3SzNxaFJXbVFLdmRZcG9aSENrNkFodkRRPT0K",
