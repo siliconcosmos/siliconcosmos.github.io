@@ -1,22 +1,31 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
-import { useSeoMeta } from '@unhead/vue'
-import * as Vue from 'vue';
-import Footer from '../components/Footer.vue';
-import Body from '../components/Body.vue';
-import Capsule from '../components/capsule/Capsule.vue';
-import Expander from '../components/expander/Expander.vue';
-import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
+    import { ref, type Ref } from 'vue';
+    import { useSeoMeta } from '@unhead/vue'
+    import Footer from '../components/Footer.vue';
+    import Body from '../components/Body.vue';
+    import Capsule from '../components/capsule/Capsule.vue';
+    import Expander from '../components/expander/Expander.vue';
+    import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
-useSeoMeta({
-    title: 'QuickRef - FAQ',
-    description: 'QuickRef - a free drawing reference tool for artists',
-    ogDescription: 'QuickRef - a free drawing reference tool for artists',
-    ogTitle: 'QuickRef',
-    ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
-    ogUrl: 'https://quickref.app',
-    twitterCard: 'summary_large_image',
-});
+    useSeoMeta({
+        title: 'QuickRef - FAQ',
+        description: 'QuickRef - a free drawing reference timer for artists',
+        ogDescription: 'QuickRef - a free drawing reference timer for artists',
+        ogTitle: 'QuickRef',
+        ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
+        ogUrl: 'https://quickref.app',
+        twitterCard: 'summary_large_image',
+    });
+
+    const urlHash:Ref<string> = ref("");
+
+    onNuxtReady(async () => {
+        const route = useRoute();
+        urlHash.value = route.hash.substring(1);
+
+        const jumpTo = document.getElementById(urlHash.value);
+        jumpTo?.scrollIntoView();
+    });
 </script>
 
 <template>
@@ -43,7 +52,7 @@ useSeoMeta({
                     </Capsule>
 
                     <Capsule id="windows_install">
-                        <Expander>
+                        <Expander :do-expand="urlHash === 'windows_install'">
                             Q: Why can't I install on Windows?
                             <template #content>
                                 <p>Windows may warn you that the app is from an unknown publisher. This is because the app is not yet digitally signed and software signing certificates cost $500-$1000 USD. I can't justify that cost for a free app, so for now you may need to dismiss the SmartScreen warning. I'm sorry about this inconvenience! </p>
@@ -63,7 +72,7 @@ useSeoMeta({
                     </Capsule>
 
                     <!-- <Capsule id="mac_install">
-                        <Expander>
+                        <Expander :do-expand="urlHash === 'mac_install'">
                             Q: Why won't the app open on MacOS?
                             <template #content>
                                 <p>The app isn't digitally signed on MacOS yet, so MacOS isn't going to let you run the app by default. The first time you run it you will have to follow these steps to get the app to run:</p>

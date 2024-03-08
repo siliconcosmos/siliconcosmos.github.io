@@ -5,7 +5,7 @@
 //     //  .parentElement.style.scrollbarColor = scrollbarColor;
     
 // }
-console.log(navigator);
+// console.log(navigator);
 </script>
 
 <template>

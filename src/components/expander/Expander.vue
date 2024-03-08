@@ -1,13 +1,19 @@
 <script lang="ts" setup>
-import { ref } from 'vue';
+    import { ref } from 'vue';
 
-// FIXME - setting this to true by default for now due to ghpages incompatability
-const isExpanded = ref(false); 
+    const props = defineProps({
+        doExpand: Boolean
+    })
 
-function toggleExpand() {
-    isExpanded.value = !isExpanded.value;
-}
+    const isExpanded = ref(false); 
 
+    function toggleExpand() {
+        isExpanded.value = !isExpanded.value;
+    }
+
+    onNuxtReady(() => {
+        isExpanded.value = props.doExpand;
+    });
 </script>
 
 <template>

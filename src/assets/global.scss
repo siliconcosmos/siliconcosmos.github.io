@@ -102,6 +102,7 @@ a.sc-button.sc-color-secondary:hover {
 .sc-content {
     flex-grow: 1;
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .centralize {
