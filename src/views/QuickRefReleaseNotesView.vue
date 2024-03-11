@@ -30,8 +30,30 @@ useSeoMeta({
             <Body>
                 <div class="main-column">
                     <div class="centralize page-heading sc-header-shadow">
-                        <h1>QuickRef - Release Notes</h1>                        
+                        <h1>QuickRef - Release Notes</h1>
                     </div>
+
+                    <Capsule id="v0_7_9" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_7_9" class="sc-color-text">v0.7.9 - MacOS Support and Auto-Updater</a></h2>
+                        </template>
+                        <p>This update has been in progress since before Christmas, but it&#39;s finally ready to share! The most exciting changes include MacOS support and a newly added auto-updater! This build of QuickRef involved a
+                            nearly complete rewrite of the back-end of the app; switching to a new development framework in order to decrease the size of the app. This rewrite also made it easier to support MacOS and implement the updater!
+                            Read below for specific changes:</p>
+                        <ul>
+                            <li>QuickRef is now available for MacOS!</li>
+                            <li>QuickRef now has a built in auto-updater! This should be the last manual update you have to download! <ul>
+                                    <li>After this version QuickRef will let you know whenever a new update is available and will be able to automatically download it.</li>
+                                </ul>
+                            </li>
+                            <li>Massive decrease in overall install size! <ul>
+                                    <li>On Windows QuickRef is down from almost 330MB installed to just 16MB installed! That&#39;s roughly 5% of its original size!</li>
+                                </ul>
+                            </li>
+                            <li>Improvements to media loading. QuickRef should now handle very large folders of images better.</li>
+                            <li>Added a saving indicator when saving or editing libraries.</li>
+                        </ul>
+                    </Capsule>
 
                     <Capsule id="v0_6_1" class="notes-tile">
                         <template #header>
@@ -41,7 +63,7 @@ useSeoMeta({
                         <p>The following changes have been made in this update:</p>
                         <ul>
                             <li>Fixed misaligned delete icons when libraries have long name text</li>
-                            <li>Added a new settings panel for controlling application settings. 
+                            <li>Added a new settings panel for controlling application settings.
                                 <ul>
                                     <li>This replaces the old preferences dialog.</li>
                                 </ul>
@@ -68,9 +90,9 @@ useSeoMeta({
                                 </ul>
                             </li>
                         </ul>
-                        <p>Virus Total: 
+                        <!-- <p>Virus Total: 
                             <a target="_blank" href="https://www.virustotal.com/gui/file/d47247778ed25cb26bbbedcc662923f3ee662d4f9f5bee5f0e03e8e8ecf6d8de?nocache=1">Windows</a>
-                        </p>
+                        </p> -->
                     </Capsule>
 
                     <Capsule id="v0_5_7" class="notes-tile">

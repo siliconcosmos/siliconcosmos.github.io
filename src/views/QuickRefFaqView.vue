@@ -71,7 +71,7 @@
                         </Expander>
                     </Capsule>
 
-                    <!-- <Capsule id="mac_install">
+                    <Capsule id="mac_install">
                         <Expander :do-expand="urlHash === 'mac_install'">
                             Q: Why won't the app open on MacOS?
                             <template #content>
@@ -93,7 +93,7 @@
                                 <p>The app should now open properly when you try to launch it.</p>                                
                             </template>
                         </Expander>
-                    </Capsule> -->
+                    </Capsule>
 
                 </div>
                 <template #toes>

@@ -3,7 +3,7 @@
 
     const props = defineProps({
         doExpand: Boolean
-    })
+    });
 
     const isExpanded = ref(false); 
 
