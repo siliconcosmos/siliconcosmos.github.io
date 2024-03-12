@@ -5,11 +5,11 @@
     "platforms": {
         "darwin-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef.app.tar.gz"
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef.app.0.7.9.updater.tar.gz"
         },
         "darwin-aarch64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.6/QuickRef.app.tar.gz"
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef.app.0.7.9.updater.tar.gz"
         },
         "windows-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHFhQmtWYldERGFlNlI1YmQvS0tKZWlZTmJsVnFEOVBUQlhwUFpubXNad2J1MTVxOURhbW11Q0paS3NnSVZvMDdFZG1TODhJdXhsSlRFKzBFaGdoNXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwMTY0OTM0CWZpbGU6UXVpY2tSZWZfMC43LjlfeDY0LXNldHVwLm5zaXMuemlwCkxPMXZieVRjekZiSHhtVUo2bHYvT1loUVpvTXBncS9tVlY3WkFvUTQzUDc0WGtPMC93ZXRPWC9Ya0l4ME1leklaQmJoUlZwZjBuV0pibUZ3aG1uUkFBPT0K",
