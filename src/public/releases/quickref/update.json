@@ -4,11 +4,11 @@
     "pub_date": "2024-03-11T07:32:11Z",
     "platforms": {
         "darwin-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGlNang4am5pVHFxVWJFWUtneEVvMkpXNlBOZEE2NVJEM0Q0dUR1cmhKUkZTT245SG9nN1A3T1lzaWxpa2t3MHlLakl0amt5NGJLM1d6Q2dhMHRJUFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwMjQ4MDgyCWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpVMDhEam1aZjhOZU1ROGNjYXhGdGRXVFVjeDM4Yzd5U29hY0dQQ3A1OXpaSThsUWVKRURVYUN0YW1qelc4WndaUndwWDFUc2NkR3FSV3JEdWgrVjlEZz09Cg==",
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef.app.0.7.9.updater.tar.gz"
         },
         "darwin-aarch64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG9vT2w0c1V1a3RCU1RyR0dBV3BwZERzR1l1VFdNN1pVU1AzUWdZTksrMDBPREtHK09DeGlQNHEyYXZFUTdQUnVKbjBkVDRiQ1RxMkpOREJHd3p2YWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA5NzI5ODA2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpnWS9uenEwWDFoWnh6YUR1alR4aHAvT0dKWHJUSkdYY2dXTFJxU3l2bjVnYVJPZWtLb29TRXRhOExkRHNlRGkvSFVLQjgrdnFyS3VnaEYzbzEveU5EQT09Cg==",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGlNang4am5pVHFxVWJFWUtneEVvMkpXNlBOZEE2NVJEM0Q0dUR1cmhKUkZTT245SG9nN1A3T1lzaWxpa2t3MHlLakl0amt5NGJLM1d6Q2dhMHRJUFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwMjQ4MDgyCWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpVMDhEam1aZjhOZU1ROGNjYXhGdGRXVFVjeDM4Yzd5U29hY0dQQ3A1OXpaSThsUWVKRURVYUN0YW1qelc4WndaUndwWDFUc2NkR3FSV3JEdWgrVjlEZz09Cg==",
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef.app.0.7.9.updater.tar.gz"
         },
         "windows-x86_64": {
