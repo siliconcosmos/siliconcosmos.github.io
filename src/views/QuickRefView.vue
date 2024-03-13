@@ -167,7 +167,7 @@ const carouselImages = Vue.ref([
                         <!-- <div class="centralize tile-body"> -->
                         <div class="centralize" style="padding-bottom: 30px">
                             <div>
-                                <p>QuickRef is available FREE for your windows laptop or desktop through itch.io</p>
+                                <p>QuickRef is available FREE for Windows and MacOS through itch.io</p>
                                 <br/>
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
                                 <br>
