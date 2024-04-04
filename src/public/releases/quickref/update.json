@@ -1,7 +1,7 @@
 {
-    "version": "0.7.9",
-    "notes": "- QuickRef is now available for MacOS!\n- QuickRef now has a built in auto-updater! This should be the last manual update you have to download!\n- Massive decrease in overall install size! On Windows QuickRef is down from almost 330MB installed to just 16MB installed! That's roughly 5% of its original size!\n- Improvements to media loading. QuickRef should now handle very large folders of images better.\n- Added a saving indicator when saving or editing libraries.",
-    "pub_date": "2024-03-11T07:32:11Z",
+    "version": "0.7.10",
+    "notes": "- Feature: Copy Image. Added a menu option to copy the currently displayed image in the session player view, allowing the user to paste into their preferred graphics software.\n- Bug Fix: Fixed an issue where the libraries view would randomly sort incorrectly. It should now always be alphabetical.",
+    "pub_date": "2024-04-03T07:32:11Z",
     "platforms": {
         "darwin-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGlNang4am5pVHFxVWJFWUtneEVvMkpXNlBOZEE2NVJEM0Q0dUR1cmhKUkZTT245SG9nN1A3T1lzaWxpa2t3MHlLakl0amt5NGJLM1d6Q2dhMHRJUFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwMjQ4MDgyCWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpVMDhEam1aZjhOZU1ROGNjYXhGdGRXVFVjeDM4Yzd5U29hY0dQQ3A1OXpaSThsUWVKRURVYUN0YW1qelc4WndaUndwWDFUc2NkR3FSV3JEdWgrVjlEZz09Cg==",
@@ -12,8 +12,8 @@
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef.app.0.7.9.updater.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHFhQmtWYldERGFlNlI1YmQvS0tKZWlZTmJsVnFEOVBUQlhwUFpubXNad2J1MTVxOURhbW11Q0paS3NnSVZvMDdFZG1TODhJdXhsSlRFKzBFaGdoNXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEwMTY0OTM0CWZpbGU6UXVpY2tSZWZfMC43LjlfeDY0LXNldHVwLm5zaXMuemlwCkxPMXZieVRjekZiSHhtVUo2bHYvT1loUVpvTXBncS9tVlY3WkFvUTQzUDc0WGtPMC93ZXRPWC9Ya0l4ME1leklaQmJoUlZwZjBuV0pibUZ3aG1uUkFBPT0K",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.9/QuickRef_0.7.9_x64-setup.nsis.updater.zip"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG8zYUlUQldMYno2eEZZaVJ1Y3BnaHYwcitSV2pCcExYRmdSSHhNLyt4aktsQUpuRkZNR3dOQW5aWkJFZmxYRnk0R2ZUdzJGdVlvZWJBcml0KzdmUndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEyMTk3ODA4CWZpbGU6UXVpY2tSZWZfMC43LjEwX3g2NC1zZXR1cC5uc2lzLnppcAp2R3h3amNWaDBFK1g2SG1vTFRYOStvRU1Gbkhvbi82T0pKZGxDYTNEZXp6NEU2akNQMVZBb3ZFV0hBZytmRzR5dXA4NlRRU1cremhhT0JZeThTV3dEZz09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.10/QuickRef_0.7.10_x64-setup.nsis.updater.zip"
         }
     }
 }

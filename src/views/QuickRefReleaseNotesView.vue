@@ -33,6 +33,16 @@ useSeoMeta({
                         <h1>QuickRef - Release Notes</h1>
                     </div>
 
+                    <Capsule id="v0_7_10" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_7_10" class="sc-color-text">v0.7.10</a></h2>
+                        </template>
+                        <ul>
+                            <li>Feature: Copy Image - Added a menu option to copy the currently displayed image in the session player view, allowing the user to paste into their preferred graphics software.</li>
+                            <li>Bug Fix: Fixed an issue where the libraries view would randomly sort incorrectly. It should now always be alphabetical.</li>
+                        </ul>
+                    </Capsule>
+
                     <Capsule id="v0_7_9" class="notes-tile">
                         <template #header>
                             <h2>// <a href="#v0_7_9" class="sc-color-text">v0.7.9 - MacOS Support and Auto-Updater</a></h2>
