@@ -1,15 +1,15 @@
 {
-    "version": "0.7.10",
+    "version": "0.7.11",
     "notes": "- Feature: Copy Image. Added a menu option to copy the currently displayed image in the session player view, allowing the user to paste into their preferred graphics software.\n- Bug Fix: Fixed an issue where the libraries view would randomly sort incorrectly. It should now always be alphabetical.",
-    "pub_date": "2024-04-04T00:55:11Z",
+    "pub_date": "2024-04-28T00:55:11Z",
     "platforms": {
         "darwin-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHNVY1lyRGE5cE9OTlBNZHNsSzFmQzJUWDNMRkVNMFhyL0wrS3BZSE5hRWY2Z0xhZktqM0JyRFkybFI5bVJZMERwVndMWWhZRUd4QVZ3QlVEcUlpWXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEyMjEzMzc0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpiRGxjeG55S09Lb0pHMGJmWmQvbEJxMHZHTjdsWDJ1L0Z5d0ZGL1JYSlhsOU42dXNaazNTa1Q0bTUxSWlIQTBmUFM4VjhiRlpybTRxTk9CNDJrYU5DQT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.10/QuickRef.app.0.7.10.updater.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZmZk5xVm11TlJJVTZqMmVobWFxbmZ1U2pMQnhKR1hvS21GVzdocnBiN1V6cXhLcHU4ZTkvT0NsTDdkVTAyT2dwRzg4VnVhTm5FOTFrYXZGWHgxR3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE0MzQzNjM1CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negp1WHN3S21sZXdFV29qYzJab2tvQWhhK2RmY01TYzlReGJ3OGU5NGRVMXpSa29BZ1JvcjBwMHBqNkRpWE5JaUtPTk5KT1ltU0NSa3RxUWRxb1pGd1ZDQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.11/QuickRef.app.0.7.11.updater.tar.gz"
         },
         "darwin-aarch64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHNVY1lyRGE5cE9OTlBNZHNsSzFmQzJUWDNMRkVNMFhyL0wrS3BZSE5hRWY2Z0xhZktqM0JyRFkybFI5bVJZMERwVndMWWhZRUd4QVZ3QlVEcUlpWXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEyMjEzMzc0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpiRGxjeG55S09Lb0pHMGJmWmQvbEJxMHZHTjdsWDJ1L0Z5d0ZGL1JYSlhsOU42dXNaazNTa1Q0bTUxSWlIQTBmUFM4VjhiRlpybTRxTk9CNDJrYU5DQT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.10/QuickRef.app.0.7.10.updater.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZmZk5xVm11TlJJVTZqMmVobWFxbmZ1U2pMQnhKR1hvS21GVzdocnBiN1V6cXhLcHU4ZTkvT0NsTDdkVTAyT2dwRzg4VnVhTm5FOTFrYXZGWHgxR3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE0MzQzNjM1CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negp1WHN3S21sZXdFV29qYzJab2tvQWhhK2RmY01TYzlReGJ3OGU5NGRVMXpSa29BZ1JvcjBwMHBqNkRpWE5JaUtPTk5KT1ltU0NSa3RxUWRxb1pGd1ZDQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.7.11/QuickRef.app.0.7.11.updater.tar.gz"
         },
         "windows-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG8zYUlUQldMYno2eEZZaVJ1Y3BnaHYwcitSV2pCcExYRmdSSHhNLyt4aktsQUpuRkZNR3dOQW5aWkJFZmxYRnk0R2ZUdzJGdVlvZWJBcml0KzdmUndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEyMTk3ODA4CWZpbGU6UXVpY2tSZWZfMC43LjEwX3g2NC1zZXR1cC5uc2lzLnppcAp2R3h3amNWaDBFK1g2SG1vTFRYOStvRU1Gbkhvbi82T0pKZGxDYTNEZXp6NEU2akNQMVZBb3ZFV0hBZytmRzR5dXA4NlRRU1cremhhT0JZeThTV3dEZz09Cg==",
