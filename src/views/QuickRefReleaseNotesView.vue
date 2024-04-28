@@ -33,6 +33,17 @@ useSeoMeta({
                         <h1>QuickRef - Release Notes</h1>
                     </div>
 
+                    <Capsule id="v0_7_11" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_7_11" class="sc-color-text">v0.7.11</a></h2>
+                        </template>
+                        <ul>
+                            <li>Feature: Open Library Folder - added an option on the libraries view to open the source folder of a library</li>
+                            <li>Fix: Update status messages should now be translated properly</li>
+                            <li>Fix: Minor performance optimization</li>
+                        </ul>
+                    </Capsule>
+
                     <Capsule id="v0_7_10" class="notes-tile">
                         <template #header>
                             <h2>// <a href="#v0_7_10" class="sc-color-text">v0.7.10</a></h2>
