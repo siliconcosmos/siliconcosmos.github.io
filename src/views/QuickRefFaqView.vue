@@ -23,8 +23,10 @@
         const route = useRoute();
         urlHash.value = route.hash.substring(1);
 
-        const jumpTo = document.getElementById(urlHash.value);
-        jumpTo?.scrollIntoView();
+        setTimeout(() => {
+            const jumpTo = document.getElementById(urlHash.value);
+            jumpTo?.scrollIntoView();
+        }, 500);
     });
 </script>
 
