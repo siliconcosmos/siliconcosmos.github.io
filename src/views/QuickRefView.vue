@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
-import { useSeoMeta } from '@unhead/vue'
-import * as Vue from 'vue';
-import Footer from '../components/Footer.vue';
+import { useSeoMeta } from '@unhead/vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
-import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
+import Footer from '../components/Footer.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
@@ -18,21 +15,6 @@ useSeoMeta({
     ogUrl: 'https://quickref.app',
     twitterCard: 'summary_large_image',
 });
-
-const carouselImages = Vue.ref([
-    '/src/assets/quickref_images/QuickRef_6mACsYjRMX.png', 
-    // '/src/assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
-    // '/src/assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
-    // '/src/assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
-    // '/src/assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
-]);
-// const carouselImages = ref([
-//     '../assets/quickref_images/QuickRef_6mACsYjRMX.png', 
-//     '../assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
-//     '../assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
-//     '../assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
-//     '../assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
-// ]); 
 
 </script>
 
@@ -56,9 +38,6 @@ const carouselImages = Vue.ref([
                         <template #center>
                             <div class="eyecatch-carousel centralize">
                                 <img src="../assets/quickref_images/QuickRef_6mACsYjRMX.png"/>
-
-                                <!-- <ImageCarousel /> -->
-                                <!-- <ImageCarousel :images="carouselImages" /> -->
                             </div>
                         </template>
                     </CapsuleLayout>
