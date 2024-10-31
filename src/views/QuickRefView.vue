@@ -32,7 +32,7 @@ useSeoMeta({
                     <CapsuleLayout class="eyecatch">
                         <template #left>
                             <div class="eyecatch-text centralize">
-                                <h1 class="sc-color-secondary">Practice gesture drawing with your own reference images!</h1>
+                                <h1 class="sc-color-secondary">Practice drawing at speed with your own reference images!</h1>
                             </div>
                         </template>
 
@@ -201,7 +201,7 @@ useSeoMeta({
 
 .eyecatch {
     width: 100%;
-    padding: 20px;
+    padding: 0px glob.$whitespace-sm 0px glob.$whitespace-sm;
 }
 .eyecatch-text {
     padding: glob.$whitespace-sm; 
@@ -221,7 +221,7 @@ useSeoMeta({
     }
 }
 .tagline-2 {
-    height: 200px;
+    // height: 175px;
     padding: glob.$whitespace-sm;
     text-shadow: #000 0px 5px 10px;
 }
@@ -274,14 +274,18 @@ img {
     object-fit: contain;
 }
 
-@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
+@media (min-width: glob.$media-md) {
+    .eyecatch {
+        padding: glob.$whitespace-sm;
+        padding-bottom: 0px;
+    }
     .eyecatch-text {
         max-width: 450px; 
         padding: glob.$whitespace-lg;
         font-size: large;
     }
     .tagline-2 {
-        height: 100px;
+        // height: 100px;
         padding: glob.$whitespace-md;
     }
     .key-grid {
