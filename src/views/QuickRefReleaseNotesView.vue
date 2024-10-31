@@ -33,6 +33,22 @@ useSeoMeta({
                         <h1>QuickRef - Release Notes</h1>
                     </div>
 
+                    <Capsule id="v0_8_8" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_8_8" class="sc-color-text">v0.8.8</a></h2>
+                        </template>
+                        <ul>
+                            <li>Feature: Prevent the screen from turning off when the user is in a session. This can be disabled in the settings menu.</li>
+                            <li>Feature: Added a button to the library menu to start a new session with the selected library</li>
+                            <li>Feature: Revamp the session configuration page and add an option to limit the number of intervals</li>
+                            <li>Feature: Add a message on screen when the session is paused to make it more obvious</li>
+                            <li>Feature: Display a finished session message after the last interval</li>
+                            <li>Bug: Fixed an issue where session chimes would play during breaks</li>
+                            <li>Improvement: Optimised the way large images are loaded to improve UI responsiveness</li>
+                        </ul>
+
+                    </Capsule>
+
                     <Capsule id="v0_7_11" class="notes-tile">
                         <template #header>
                             <h2>// <a href="#v0_7_11" class="sc-color-text">v0.7.11</a></h2>
