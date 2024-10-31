@@ -37,7 +37,7 @@ useSeoMeta({
 
                         <template #center>
                             <div class="eyecatch-carousel centralize">
-                                <img src="../assets/quickref_images/QuickRef_6mACsYjRMX.png"/>
+                                <img src="../assets/quickref/landing/quickref_start.png"/>
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -53,13 +53,13 @@ useSeoMeta({
                     <CapsuleLayout class="key-capsule">
                         <div class="key-grid" >
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_cMh9PbHMQQ.png" />
+                                <img src="../assets/quickref/landing/quickref_session_paused.png" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_4iiwCeRs6I.png" />
+                                <img src="../assets/quickref/landing/quickref_session_menu.png" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_cZHrrhnyko.png" />
+                                <img src="../assets/quickref/landing/quickref_session_basic.png" />
                             </div>
                         </div>
                     </CapsuleLayout>
@@ -71,7 +71,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/QuickRef_3F4ZOCbev6.png" />
+                                    <img src="../assets/quickref/landing/quickref_libraries.png" />
                                 </div>
                             </div>
                         </template>
@@ -92,7 +92,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/QuickRef_CIxOVuYi4I.png" />
+                                    <img src="../assets/quickref/landing/quickref_session_config.png" />
                                 </div>
                             </div>
                         </template>
@@ -115,7 +115,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg" />
+                                    <img src="../assets/quickref/landing/quickref_clipstudio.jpg" />
                                 </div>
                             </div>
                         </template>
