@@ -23,8 +23,9 @@ useSeoMeta({
         <div class="sc-header">
             <QuickRefHeader></QuickRefHeader>
         </div>
-        
+
         <div class="sc-content">
+
             <Body>
                 <div class="main-column">
 
@@ -37,7 +38,7 @@ useSeoMeta({
 
                         <template #center>
                             <div class="eyecatch-carousel centralize">
-                                <img src="../assets/quickref/landing/quickref_start.png"/>
+                                <img src="../assets/quickref/landing/quickref_start.png" />
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -47,11 +48,11 @@ useSeoMeta({
                     </div>
 
                     <div class="centralize cta-button">
-                        <a class="sc-button sc-color-secondary" href="#download">Download Now!</a> 
+                        <a class="sc-button sc-color-secondary" href="#download">Download Now!</a>
                     </div>
 
                     <CapsuleLayout class="key-capsule">
-                        <div class="key-grid" >
+                        <div class="key-grid">
                             <div class="tile-img">
                                 <img src="../assets/quickref/landing/quickref_session_paused.png" />
                             </div>
@@ -63,7 +64,7 @@ useSeoMeta({
                             </div>
                         </div>
                     </CapsuleLayout>
-                        
+
                     <Capsule>
                         <template #header>
                             <h1 class="centralize-h tile-heading">Create Reference Libraries</h1>
@@ -77,14 +78,14 @@ useSeoMeta({
                         </template>
                         <div class="centralize tile-body">
                             <p>
-                                QuickRef allows you to use the images you already have. 
-                                No need to upload or download anything. 
-                                Organize the photos with the file manager that's already on your computer. 
-                                Simply place some photos into a folder on your computer and create a library in QuickRef. 
+                                QuickRef allows you to use the images you already have.
+                                No need to upload or download anything.
+                                Organize the photos with the file manager that's already on your computer.
+                                Simply place some photos into a folder on your computer and create a library in QuickRef.
                             </p>
                         </div>
                     </Capsule>
-                    
+
                     <Capsule>
                         <template #header>
                             <h1 class="centralize-h tile-heading">Configure Your Session</h1>
@@ -101,7 +102,7 @@ useSeoMeta({
                                 Similar to other tools online, a session in QuickRef is made up of intervals.
 
                                 Simply select a reference library, decide how long you want each image to display and
-                                how much time to rest between intervals. 
+                                how much time to rest between intervals.
 
                                 Then start the session!
                             </p>
@@ -127,7 +128,32 @@ useSeoMeta({
                                 </p>
                             </div>
                         </template>
-                        
+                    </Capsule>
+
+                    <Capsule>
+                        <template #header>
+                            <h1 class="centralize-h tile-heading">Customize</h1>
+                        </template>
+                        <template #left>
+                            <div style="width:100%" class="centralize">
+                                <div class="tile-img">
+                                    <img src="../assets/quickref/landing/quickref_settings.png" />
+                                </div>
+                            </div>
+                        </template>
+                        <template #default>
+                            <div class="centralize tile-body">
+                                <p>
+                                    QuickRef offers many configuration settings to make the right practice experience for you.
+                                    <ul>
+                                        <li>Show a timer progress bar</li>
+                                        <li>Play chimes to alert you when intervals change</li>
+                                        <li>Change the visibility of toolbars</li>
+                                        <li>And more!</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </template>
                     </Capsule>
 
                     <Capsule id="download">
@@ -138,8 +164,10 @@ useSeoMeta({
                             <!-- direct downloads coming soon... -->
                         </template>
                         <template #footer>
-                            <div class="centralize-h">                                
-                                <iframe frameborder="0" src="https://itch.io/embed/2362802?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="552" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
+                            <div class="centralize-h">
+                                <iframe frameborder="0" src="https://itch.io/embed/2362802?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="552" height="167">
+                                    <a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a>
+                                </iframe>
                             </div>
                         </template>
 
@@ -147,7 +175,7 @@ useSeoMeta({
                         <div class="centralize" style="padding-bottom: 30px">
                             <div>
                                 <p>QuickRef is available FREE for Windows and MacOS through itch.io</p>
-                                <br/>
+                                <br />
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
                                 <br>
                                 <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link></p>
@@ -161,7 +189,7 @@ useSeoMeta({
                 </template>
             </Body>
         </div>
-        
+
         <div class="sc-footer">
         </div>
 
