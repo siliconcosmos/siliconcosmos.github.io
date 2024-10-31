@@ -46,9 +46,43 @@
 
                     <Capsule>
                         <Expander>
+                            Q: Is this a trick? Why is this free?
+                            <template #content>
+                                <p>I am not a big tech company. I have no interest in tracking you or harvesting your data. I just want to help people learn to draw faster. QuickRef is free, because that will allow it to be used by the largest number of people. Many great softwares are free, such as Krita or Blender. QuickRef is not open-source like them, but it is still free like them. No strings attached. No tracking. You are not a product to me.</p>
+
+                                <p>If you choose to purchase QuickRef through itch.io, thank you very much. That's very much appreciated.
+                                However, I only ask that if you enjoy using QuickRef, please let me know! I wont know if you don't tell me directly 😊</p>
+                            </template>
+                        </Expander>
+                    </Capsule>
+
+                    <Capsule>
+                        <Expander>
                             Q: Is there a mobile version of QuickRef?
                             <template #content>
                                 <p>I would like to have a mobile version of QuickRef for iOS and Android in the future, but at this time there is no mobile version. I am focused on the desktop versions for now.</p>
+                            </template>
+                        </Expander>
+                    </Capsule>
+
+                    <Capsule>
+                        <Expander>
+                            Q: Why doesn't scrolling work with my tablet stylus?
+                            <template #content>
+                                <p>On MacOS, tap-and-drag scrolling is not supported, because MacOS does not support simulated touch actions. Instead, your pen tip is treated like a mouse cursor. You can click-and-drag on the scroll bar to scroll the view.</p>
+
+                                <p>On Windows, some tablets support the Windows Ink API. With Windows Ink enabled, you can use tap-and-drag scrolling to scroll the view like you would on a smart phone. However, because the pen tip is tracked like a finger and not like a mouse, right-click menus will not work normally. Use the kebab menus (three vertical dots) to get around this. </p>
+                                
+                                <p>With Windows Ink disabled, tap-and-drag gestures will not work, but right-click menus will. If your tablet does not support Windows Ink—or you prefer not to use it—there is a toggle in the settings menu to make the scrollbars wider. That should make it easier to scroll the view. </p>
+                            </template>
+                        </Expander>
+                    </Capsule>
+
+                    <Capsule>
+                        <Expander>
+                            Q: Why are changes to settings not always remembered?
+                            <template #content>
+                                <p>Any changes to settings made through the toolbar at the top are considered temporary. They will take effect until you close QuickRef. If you want your changes to persist, use the Settings page. Any changes made through the Settings page will be saved and loaded the next time you use QuickRef.</p>
                             </template>
                         </Expander>
                     </Capsule>
