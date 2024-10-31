@@ -18,8 +18,8 @@ import KofiDonate from '~/components/KofiDonate.vue';
 
             <div class="flex-spacer"></div>
 
-            <KofiDonate></KofiDonate>
             <div><slot name="right"></slot></div>
+            <KofiDonate></KofiDonate>
         </div>
     </Toolbar>
 </template>

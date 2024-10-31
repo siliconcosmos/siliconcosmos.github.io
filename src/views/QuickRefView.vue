@@ -21,7 +21,11 @@ useSeoMeta({
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <QuickRefHeader></QuickRefHeader>
+            <QuickRefHeader>
+                <template #right>
+                    <!-- test -->
+                </template>
+            </QuickRefHeader>
         </div>
 
         <div class="sc-content">
