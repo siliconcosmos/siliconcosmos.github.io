@@ -38,7 +38,12 @@
     display: inline-block;
     position: absolute;
     padding: glob.$whitespace-xs;
-    right: 55px;
+    
+    top: 65px;
+    right: 5px;
+
+    // right: 55px;
+
     min-width: max-content;
     background-color: glob.$background-bright;
     border: 1px solid glob.$border-bright;
@@ -48,9 +53,15 @@
 .kofi-cta-pop:before {
     content: "";
     position: absolute;
-    top: calc(75% / 2);
-    left: calc(100% - 5px);
-    transform: rotate(-45deg);
+
+    bottom: calc(101% - 5px);
+    right: 5%;
+    transform: rotate(225deg);
+
+    // top: calc(75% / 2);
+    // left: calc(100% - 5px);
+    // transform: rotate(-45deg);
+
     height: 10px;
     width: 10px;
     background-color: glob.$background-bright;
