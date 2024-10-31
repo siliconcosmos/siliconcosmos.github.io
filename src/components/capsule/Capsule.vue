@@ -44,7 +44,8 @@ import CapsuleLayout from './CapsuleLayout.vue';
 .capsule-root {
     // display: inline-block;
     border: 1px solid glob.$border-dim;
-    margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
+    margin: glob.$whitespace-sm;
+    // margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
     transition: padding glob.$transition-slow;
@@ -53,14 +54,16 @@ import CapsuleLayout from './CapsuleLayout.vue';
 @media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
     .capsule-root {
         padding: glob.$whitespace-md;
-        margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
+        margin: glob.$whitespace-md;
+        // margin: glob.$whitespace-md glob.$whitespace-md 0 glob.$whitespace-md;
     }
 }
 
 @media (min-width: glob.$media-lg) {
     .capsule-root {
         padding: glob.$whitespace-lg;
-        margin: glob.$whitespace-lg glob.$whitespace-lg 0 glob.$whitespace-lg;
+        margin: glob.$whitespace-lg;
+        // margin: glob.$whitespace-lg glob.$whitespace-lg 0 glob.$whitespace-lg;
     }
 }
 </style>

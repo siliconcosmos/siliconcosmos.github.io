@@ -119,7 +119,12 @@
 }
 
 h2 {
-    padding-bottom: glob.$whitespace-sm;
+    margin-bottom: glob.$whitespace-sm;
+}
+
+p {
+    margin-top: glob.$whitespace-xs;
+    margin-bottom: glob.$whitespace-xs;
 }
 
 .img-cell {
