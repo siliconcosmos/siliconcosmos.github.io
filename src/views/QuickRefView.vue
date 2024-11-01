@@ -12,8 +12,10 @@ useSeoMeta({
     ogDescription: 'QuickRef - a free drawing reference timer for artists',
     ogTitle: 'QuickRef',
     ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
+    ogImageAlt: "Eye-catch image for the QuickRef drawing reference application",
     ogUrl: 'https://quickref.app',
     twitterCard: 'summary_large_image',
+    creator: "Silicon Cosmos Studios"
 });
 
 </script>

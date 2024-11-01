@@ -78,8 +78,8 @@
                         </Expander>
                     </Capsule>
 
-                    <Capsule>
-                        <Expander>
+                    <Capsule id="tablet_scrolling">
+                        <Expander :do-expand="urlHash === 'tablet_scrolling'">
                             Q: Why are changes to settings not always remembered?
                             <template #content>
                                 <p>Any changes to settings made through the toolbar at the top are considered temporary. They will take effect until you close QuickRef. If you want your changes to persist, use the Settings page. Any changes made through the Settings page will be saved and loaded the next time you use QuickRef.</p>
