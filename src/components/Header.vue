@@ -51,7 +51,7 @@ import KofiDonate from '~/components/KofiDonate.vue';
     flex: 1 1 auto;
 }
 
-@media (min-width: glob.$media-sm) {
+@media (min-width: glob.$media-md) {
     .toolbar-main {
         padding: 20px;
     }
