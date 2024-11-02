@@ -46,7 +46,7 @@
 
                     <Capsule>
                         <Expander>
-                            Q: Is this a trick? Why is this free?
+                            <h2>Q: Is this a trick? Why is this free?</h2>
                             <template #content>
                                 <p>I am not a big tech company. I have no interest in tracking you or harvesting your data. I just want to help people learn to draw faster. QuickRef is free, because that will allow it to be used by the largest number of people. Many great softwares are free, such as Krita or Blender. QuickRef is not open-source like them, but it is still free like them. No strings attached. No tracking. You are not a product to me.</p>
 
@@ -58,7 +58,7 @@
 
                     <Capsule>
                         <Expander>
-                            Q: Is there a mobile version of QuickRef?
+                            <h2>Q: Is there a mobile version of QuickRef?</h2>
                             <template #content>
                                 <p>I would like to have a mobile version of QuickRef for iOS and Android in the future, but at this time there is no mobile version. I am focused on the desktop versions for now.</p>
                             </template>
@@ -67,7 +67,7 @@
 
                     <Capsule>
                         <Expander>
-                            Q: Why doesn't scrolling work with my tablet stylus?
+                            <h2>Q: Why doesn't scrolling work with my tablet stylus?</h2>
                             <template #content>
                                 <p>On MacOS, tap-and-drag scrolling is not supported, because MacOS does not support simulated touch actions. Instead, your pen tip is treated like a mouse cursor. You can click-and-drag on the scroll bar to scroll the view.</p>
 
@@ -80,7 +80,7 @@
 
                     <Capsule id="tablet_scrolling">
                         <Expander :do-expand="urlHash === 'tablet_scrolling'">
-                            Q: Why are changes to settings not always remembered?
+                            <h2>Q: Why are changes to settings not always remembered?</h2>
                             <template #content>
                                 <p>Any changes to settings made through the toolbar at the top are considered temporary. They will take effect until you close QuickRef. If you want your changes to persist, use the Settings page. Any changes made through the Settings page will be saved and loaded the next time you use QuickRef.</p>
                             </template>
@@ -89,7 +89,7 @@
 
                     <Capsule id="windows_install">
                         <Expander :do-expand="urlHash === 'windows_install'">
-                            Q: Why can't I install on Windows?
+                            <h2>Q: Why can't I install on Windows?</h2>
                             <template #content>
                                 <p>Windows may warn you that the app is from an unknown publisher. This is because the app is not yet digitally signed and software signing certificates cost $500-$1000 USD. I can't justify that cost for a free app, so for now you may need to dismiss the SmartScreen warning. I'm sorry about this inconvenience! </p>
                                 <br>
@@ -109,7 +109,7 @@
 
                     <Capsule id="mac_install">
                         <Expander :do-expand="urlHash === 'mac_install'">
-                            Q: Why won't the app open on MacOS?
+                            <h2>Q: Why won't the app open on MacOS?</h2>
                             <template #content>
                                 <p>The app isn't digitally signed on MacOS yet, so MacOS isn't going to let you run the app by default. The first time you run it you will have to follow these steps to get the app to run:</p>
                                 <br>
@@ -153,6 +153,7 @@
 }
 
 h2 {
+    font-size: 1em;
     margin-bottom: glob.$whitespace-sm;
 }
 
@@ -171,6 +172,24 @@ p {
         max-height: 512px;
         object-fit: contain;
         display: inline-block;
+    }
+}
+
+@media (min-width: glob.$media-sm) {
+    h2 {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: glob.$media-md) {
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: glob.$media-lg) {
+    h2 {
+        font-size: 1.25em;
     }
 }
 </style>

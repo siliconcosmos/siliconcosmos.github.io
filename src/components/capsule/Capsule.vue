@@ -51,7 +51,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
     transition: padding glob.$transition-slow;
 }
 
-@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
+@media (min-width: glob.$media-md) {
     .capsule-root {
         padding: glob.$whitespace-md;
         margin: glob.$whitespace-md;

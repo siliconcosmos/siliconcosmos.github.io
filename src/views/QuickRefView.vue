@@ -7,9 +7,9 @@ import Footer from '../components/Footer.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
-    title: 'QuickRef',
-    description: 'QuickRef - a free drawing reference timer for artists',
-    ogDescription: 'QuickRef - a free drawing reference timer for artists',
+    title: 'QuickRef - a free drawing reference timer for artists',
+    description: 'Practice gesture drawing at speed with your own reference images!',
+    ogDescription: 'Practice gesture drawing at speed with your own reference images!',
     ogTitle: 'QuickRef',
     ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
     ogImageAlt: "Eye-catch image for the QuickRef drawing reference application",
@@ -60,13 +60,13 @@ useSeoMeta({
                     <CapsuleLayout class="key-capsule">
                         <div class="key-grid">
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_paused.png" />
+                                <img src="../assets/quickref/landing/quickref_session_paused.png" alt="screenshot of a QuickRef session that is paused" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_menu.png" />
+                                <img src="../assets/quickref/landing/quickref_session_menu.png" alt="screenshot of a QuickRef session that shows an open kebab menu" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_basic.png" />
+                                <img src="../assets/quickref/landing/quickref_session_basic.png" alt="screenshot of a QuickRef session" />
                             </div>
                         </div>
                     </CapsuleLayout>
@@ -131,6 +131,7 @@ useSeoMeta({
                                 <p>
                                     With QuickRef you can take your practice offline.
                                     Use it in fullscreen mode with a regular sketchbook or pin the window overtop of your favourite drawing program.
+                                    Use it for gesture drawing or longer figure studies, with full control over the images you study with!
                                 </p>
                             </div>
                         </template>
@@ -254,6 +255,7 @@ useSeoMeta({
 }
 
 .tile-heading {
+    font-size: 1.25em;
     padding-bottom: 15px;
 }
 .tile-body {
@@ -280,6 +282,12 @@ img {
     object-fit: contain;
 }
 
+@media (min-width: glob.$media-sm) {
+    .tile-heading {
+        font-size: 1.5em;
+    }
+}
+
 @media (min-width: glob.$media-md) {
     .eyecatch {
         padding: glob.$whitespace-sm;
@@ -297,6 +305,9 @@ img {
     .key-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .tile-heading {
+        font-size: 1.75em;
+    }
     .tile-body {
         padding-top: unset;
         padding-left: glob.$whitespace-md;
@@ -307,6 +318,9 @@ img {
     .eyecatch-text {
         max-width: 600px; 
         font-size: x-large;
+    }
+    .tile-heading {
+        font-size: 2em;
     }
     .tile-body {
         padding-left: glob.$whitespace-lg;
