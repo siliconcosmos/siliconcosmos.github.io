@@ -13,7 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-free": "^6.6.0",
     "@unhead/vue": "^1.8.7",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",

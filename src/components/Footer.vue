@@ -10,12 +10,13 @@ import Toolbar from './Toolbar.vue';
                 <p>©️ 2024 Silicon Cosmos Studios</p>
             </div>
             <div class="mid">
+                <p><a href="https://bsky.app/profile/siliconcosmos.bsky.social" target="_blank">bluesky <i class="fa-brands fa-bluesky"></i></a></p>
+                <p><a href="https://twitter.com/siliconcosmos" target="_blank">twitter <i class="fa-brands fa-twitter"></i></a></p>
                 <slot></slot>
             </div>
             <div class="right">
-                <p><a href="https://twitter.com/siliconcosmos" target="_blank">twitter <i class="fa-brands fa-twitter"></i></a></p>
-                <p><a href="https://github.com/siliconcosmos" target="_blank">github <i class="fa-brands fa-github"></i></a></p>
                 <p><a href="https://siliconcosmos.itch.io" target="_blank">itch.io <i class="fa-brands fa-itch-io"></i></a></p>
+                <p><a href="https://github.com/siliconcosmos" target="_blank">github <i class="fa-brands fa-github"></i></a></p>
             </div>
         </div>
 
