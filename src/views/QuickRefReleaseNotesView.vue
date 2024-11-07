@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
-import { useSeoMeta } from '@unhead/vue'
-import * as Vue from 'vue';
-import Footer from '../components/Footer.vue';
+import { useSeoMeta } from '@unhead/vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
+import Footer from '../components/Footer.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
