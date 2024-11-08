@@ -42,7 +42,7 @@ useSeoMeta({
                             <li>Feature: Revamp the session configuration page and add an option to limit the number of intervals</li>
                             <li>Feature: Display a finished session message after the last interval</li>
                             <li>Bug: Fixed an issue where session chimes would play during breaks</li>
-                            <li>Improvement: Optimised the way large images are loaded to improve UI responsiveness</li>
+                            <li>Improvement: Optimized the way large images are loaded to improve UI responsiveness</li>
                             <li>Improvement: Add a message on screen when the session is paused to make it more obvious</li>
                         </ul>
                     </Capsule>
