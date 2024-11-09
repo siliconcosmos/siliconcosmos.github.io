@@ -44,7 +44,7 @@ useSeoMeta({
 
                         <template #center>
                             <div class="eyecatch-carousel centralize">
-                                <img src="../assets/quickref/landing/quickref_start.png" />
+                                <NuxtImg src="/quickref/landing/quickref_start.png" preset="screenshot"/>
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -60,13 +60,13 @@ useSeoMeta({
                     <CapsuleLayout class="key-capsule">
                         <div class="key-grid">
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_paused.png" alt="screenshot of a QuickRef session that is paused" />
+                                <NuxtImg src="/quickref/landing/quickref_session_paused.png" preset="screenshot" alt="screenshot of a QuickRef session that is paused" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_menu.png" alt="screenshot of a QuickRef session that shows an open kebab menu" />
+                                <NuxtImg src="/quickref/landing/quickref_session_menu.png" preset="screenshot" alt="screenshot of a QuickRef session that shows an open kebab menu"/>
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref/landing/quickref_session_basic.png" alt="screenshot of a QuickRef session" />
+                                <NuxtImg src="/quickref/landing/quickref_session_basic.png" preset="screenshot" alt="screenshot of a QuickRef session"/>
                             </div>
                         </div>
                     </CapsuleLayout>
@@ -78,7 +78,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref/landing/quickref_libraries.png" />
+                                    <NuxtImg src="/quickref/landing/quickref_libraries.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -99,7 +99,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref/landing/quickref_session_config.png" />
+                                    <NuxtImg src="/quickref/landing/quickref_session_config.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -122,7 +122,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref/landing/quickref_clipstudio.jpg" />
+                                    <NuxtImg src="/quickref/landing/quickref_clipstudio.jpg" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -144,7 +144,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref/landing/quickref_settings.png" />
+                                    <NuxtImg src="/quickref/landing/quickref_settings.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>

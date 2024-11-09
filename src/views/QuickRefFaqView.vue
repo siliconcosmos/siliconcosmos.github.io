@@ -9,8 +9,8 @@
 
     useSeoMeta({
         title: 'QuickRef - FAQ',
-        description: 'QuickRef - a free drawing reference timer for artists',
-        ogDescription: 'QuickRef - a free drawing reference timer for artists',
+        description: 'Practice gesture drawing at speed with your own reference images!',
+        ogDescription: 'Practice gesture drawing at speed with your own reference images!',
         ogTitle: 'QuickRef',
         ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
         ogUrl: 'https://quickref.app',
@@ -95,11 +95,11 @@
                                 <br>
                                 <p>1) Click "More info"</p>
                                 <div class="centralize-h img-cell">
-                                    <img src="~/assets/quickref/faq/windows-smart-screen-1.png" />
+                                    <NuxtImg preset="screenshot" src="/quickref/faq/windows-smart-screen-1.png" />
                                 </div>
                                 <p>2) Click "Run anyway"</p>
                                 <div class="centralize-h img-cell">
-                                    <img src="~/assets/quickref/faq/windows-smart-screen-2.png" />
+                                    <NuxtImg preset="screenshot" src="/quickref/faq/windows-smart-screen-2.png" />
                                 </div>
                                 <br>
                                 <p>Windows should now launch the installer and you should be able to install the program.</p>                                    
@@ -115,15 +115,15 @@
                                 <br>
                                 <p>1) Run the app and click "cancel" in the popup message</p>                            
                                 <div class="centralize-h img-cell">
-                                    <img src="~/assets/quickref/faq/mac-unknown-dev-1.png" />
+                                    <NuxtImg preset="screenshot" src="/quickref/faq/mac-unknown-dev-1.png" />
                                 </div>
                                 <p>2) Open System Settings > Privacy & Security. Scroll down to find a message indicating that running the app was blocked. Click "Open Anyway"</p>
                                 <div class="centralize-h img-cell">
-                                    <img src="~/assets/quickref/faq/mac-unknown-dev-2.png" />
+                                    <NuxtImg preset="screenshot" src="/quickref/faq/mac-unknown-dev-2.png" />
                                 </div>
                                 <p>3) Click "Open" in the warning popup</p>
                                 <div class="centralize-h img-cell">
-                                    <img src="~/assets/quickref/faq/mac-unknown-dev-3.png" />
+                                    <NuxtImg preset="screenshot" src="/quickref/faq/mac-unknown-dev-3.png" />
                                 </div>
                                 <br>
                                 <p>The app should now open properly when you try to launch it.</p>                                

@@ -7,8 +7,8 @@ import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
     title: 'QuickRef - Release Notes',
-    description: 'QuickRef - a free drawing reference tool for artists',
-    ogDescription: 'QuickRef - a free drawing reference tool for artists',
+    description: 'Practice gesture drawing at speed with your own reference images!',
+    ogDescription: 'Practice gesture drawing at speed with your own reference images!',
     ogTitle: 'QuickRef',
     ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
     ogUrl: 'https://quickref.app',
