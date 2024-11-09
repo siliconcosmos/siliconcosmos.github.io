@@ -17,4 +17,17 @@ export default defineNuxtConfig({
   //         }
   //     }
   // },
+  modules: ['@nuxt/image'],
+  image: {
+    provider: 'ipx',
+    dir: 'assets',
+    presets: {
+      screenshot: {
+        modifiers: {
+          format: 'webp',
+          quality: 90,
+        }
+      }
+    }
+  }
 });

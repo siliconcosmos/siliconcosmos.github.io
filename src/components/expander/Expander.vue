@@ -22,7 +22,7 @@
             <span class="toggle-icon centralize">
                 <span class="fa-solid" :class="{ 'fa-chevron-right': !isExpanded, 'fa-chevron-down': isExpanded }"></span>
             </span>
-            <h2><slot></slot></h2>
+            <slot></slot>
         </div>
         <div class="content" :class="{ expanded: isExpanded }">
             <slot name="content"></slot>
@@ -33,9 +33,11 @@
 <style scoped lang="scss">
 @use "../../assets/global.scss" as glob;
 
-.summary-toggle > h2 {
-    display: inline;
+.summary-toggle {
     cursor: pointer;
+}
+.summary-toggle > :deep(h1),:deep(h2),:deep(h3),:deep(h4),:deep(h5),:deep(h6) {
+    display: inline;
 }
 
 .toggle-icon {
@@ -47,17 +49,12 @@
 }
 
 .content {
-    height: 0px;
-    overflow: hidden;
-    visibility: hidden;
     display: none;
-    transition: glob.$transition-slow;
+    height: 0px;
 }
 
 .expanded {
     display: block;
-    visibility: visible;
-    // height: 400px;
     height: auto;
 }
 </style>

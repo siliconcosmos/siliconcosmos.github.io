@@ -1,16 +1,14 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
-import { useSeoMeta } from '@unhead/vue'
-import * as Vue from 'vue';
-import Footer from '../components/Footer.vue';
+import { useSeoMeta } from '@unhead/vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
+import Footer from '../components/Footer.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
     title: 'QuickRef - Release Notes',
-    description: 'QuickRef - a free drawing reference tool for artists',
-    ogDescription: 'QuickRef - a free drawing reference tool for artists',
+    description: 'Practice gesture drawing at speed with your own reference images!',
+    ogDescription: 'Practice gesture drawing at speed with your own reference images!',
     ogTitle: 'QuickRef',
     ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
     ogUrl: 'https://quickref.app',
@@ -32,6 +30,22 @@ useSeoMeta({
                     <div class="centralize page-heading sc-header-shadow">
                         <h1>QuickRef - Release Notes</h1>
                     </div>
+
+                    <Capsule id="v0_8_8" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_8_8" class="sc-color-text">v0.8.8</a></h2>
+                        </template>
+                        <ul>
+                            <li>Feature: Prevent the screen from turning off when the user is in a session. This can be disabled in the settings menu.</li>
+                            <li>Feature: Added the ability to regenerate the library thumbnail when editing or adding new libraries</li>
+                            <li>Feature: Added a button to the library menu to start a new session with the selected library</li>
+                            <li>Feature: Revamp the session configuration page and add an option to limit the number of intervals</li>
+                            <li>Feature: Display a finished session message after the last interval</li>
+                            <li>Bug: Fixed an issue where session chimes would play during breaks</li>
+                            <li>Improvement: Optimized the way large images are loaded to improve UI responsiveness</li>
+                            <li>Improvement: Add a message on screen when the session is paused to make it more obvious</li>
+                        </ul>
+                    </Capsule>
 
                     <Capsule id="v0_7_11" class="notes-tile">
                         <template #header>

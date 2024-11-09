@@ -1,64 +1,50 @@
 <script setup lang="ts">
-import { ref, type Ref } from 'vue';
-import { useSeoMeta } from '@unhead/vue'
-import * as Vue from 'vue';
-import Footer from '../components/Footer.vue';
+import { useSeoMeta } from '@unhead/vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
-import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
+import Footer from '../components/Footer.vue';
 import QuickRefHeader from '../components/quickref/QuickRefHeader.vue';
 
 useSeoMeta({
-    title: 'QuickRef',
-    description: 'QuickRef - a free drawing reference timer for artists',
-    ogDescription: 'QuickRef - a free drawing reference timer for artists',
+    title: 'QuickRef - a free drawing reference timer for artists',
+    description: 'Practice gesture drawing at speed with your own reference images!',
+    ogDescription: 'Practice gesture drawing at speed with your own reference images!',
     ogTitle: 'QuickRef',
     ogImage: "https://siliconcosmos.com/meta/images/qr_card_thumb.jpg",
+    ogImageAlt: "Eye-catch image for the QuickRef drawing reference application",
     ogUrl: 'https://quickref.app',
     twitterCard: 'summary_large_image',
+    creator: "Silicon Cosmos Studios"
 });
-
-const carouselImages = Vue.ref([
-    '/src/assets/quickref_images/QuickRef_6mACsYjRMX.png', 
-    // '/src/assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
-    // '/src/assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
-    // '/src/assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
-    // '/src/assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
-]);
-// const carouselImages = ref([
-//     '../assets/quickref_images/QuickRef_6mACsYjRMX.png', 
-//     '../assets/quickref_images/QuickRef_cMh9PbHMQQ.png', 
-//     '../assets/quickref_images/QuickRef_3F4ZOCbev6.png', 
-//     '../assets/quickref_images/QuickRef_CIxOVuYi4I.png', 
-//     '../assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg'
-// ]); 
 
 </script>
 
 <template>
     <div class="sc-wrapper">
         <div class="sc-header">
-            <QuickRefHeader></QuickRefHeader>
+            <QuickRefHeader>
+                <template #right>
+                    <!-- test -->
+                </template>
+            </QuickRefHeader>
         </div>
-        
+
         <div class="sc-content">
+
             <Body>
                 <div class="main-column">
 
                     <CapsuleLayout class="eyecatch">
                         <template #left>
                             <div class="eyecatch-text centralize">
-                                <h1 class="sc-color-secondary">Practice gesture drawing with your own reference images!</h1>
+                                <h1 class="sc-color-secondary">Practice drawing at speed with your own reference images!</h1>
                             </div>
                         </template>
 
                         <template #center>
                             <div class="eyecatch-carousel centralize">
-                                <img src="../assets/quickref_images/QuickRef_6mACsYjRMX.png"/>
-
-                                <!-- <ImageCarousel /> -->
-                                <!-- <ImageCarousel :images="carouselImages" /> -->
+                                <NuxtImg src="/quickref/landing/quickref_start.png" preset="screenshot"/>
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -68,23 +54,23 @@ const carouselImages = Vue.ref([
                     </div>
 
                     <div class="centralize cta-button">
-                        <a class="sc-button sc-color-secondary" href="#download">Download Now!</a> 
+                        <a class="sc-button sc-color-secondary" href="#download">Download Now!</a>
                     </div>
 
                     <CapsuleLayout class="key-capsule">
-                        <div class="key-grid" >
+                        <div class="key-grid">
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_cMh9PbHMQQ.png" />
+                                <NuxtImg src="/quickref/landing/quickref_session_paused.png" preset="screenshot" alt="screenshot of a QuickRef session that is paused" />
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_4iiwCeRs6I.png" />
+                                <NuxtImg src="/quickref/landing/quickref_session_menu.png" preset="screenshot" alt="screenshot of a QuickRef session that shows an open kebab menu"/>
                             </div>
                             <div class="tile-img">
-                                <img src="../assets/quickref_images/QuickRef_cZHrrhnyko.png" />
+                                <NuxtImg src="/quickref/landing/quickref_session_basic.png" preset="screenshot" alt="screenshot of a QuickRef session"/>
                             </div>
                         </div>
                     </CapsuleLayout>
-                        
+
                     <Capsule>
                         <template #header>
                             <h1 class="centralize-h tile-heading">Create Reference Libraries</h1>
@@ -92,20 +78,20 @@ const carouselImages = Vue.ref([
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/QuickRef_3F4ZOCbev6.png" />
+                                    <NuxtImg src="/quickref/landing/quickref_mac_libraries.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
                         <div class="centralize tile-body">
                             <p>
-                                QuickRef allows you to use the images you already have. 
-                                No need to upload or download anything. 
-                                Organize the photos with the file manager that's already on your computer. 
-                                Simply place some photos into a folder on your computer and create a library in QuickRef. 
+                                QuickRef allows you to use the images you already have.
+                                No need to upload or download anything.
+                                Organize the photos with the file manager that's already on your computer.
+                                Simply place some photos into a folder on your computer and create a library in QuickRef.
                             </p>
                         </div>
                     </Capsule>
-                    
+
                     <Capsule>
                         <template #header>
                             <h1 class="centralize-h tile-heading">Configure Your Session</h1>
@@ -113,7 +99,7 @@ const carouselImages = Vue.ref([
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/QuickRef_CIxOVuYi4I.png" />
+                                    <NuxtImg src="/quickref/landing/quickref_mac_session_config.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -122,7 +108,7 @@ const carouselImages = Vue.ref([
                                 Similar to other tools online, a session in QuickRef is made up of intervals.
 
                                 Simply select a reference library, decide how long you want each image to display and
-                                how much time to rest between intervals. 
+                                how much time to rest between intervals.
 
                                 Then start the session!
                             </p>
@@ -136,7 +122,7 @@ const carouselImages = Vue.ref([
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <img src="../assets/quickref_images/CLIPStudioPaint_wKbskyNCLX.jpg" />
+                                    <NuxtImg src="/quickref/landing/quickref_clipstudio.jpg" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -145,10 +131,36 @@ const carouselImages = Vue.ref([
                                 <p>
                                     With QuickRef you can take your practice offline.
                                     Use it in fullscreen mode with a regular sketchbook or pin the window overtop of your favourite drawing program.
+                                    Use it for gesture drawing or longer figure studies, with full control over the images you study with!
                                 </p>
                             </div>
                         </template>
-                        
+                    </Capsule>
+
+                    <Capsule>
+                        <template #header>
+                            <h1 class="centralize-h tile-heading">Customize</h1>
+                        </template>
+                        <template #left>
+                            <div style="width:100%" class="centralize">
+                                <div class="tile-img">
+                                    <NuxtImg src="/quickref/landing/quickref_settings.png" preset="screenshot" />
+                                </div>
+                            </div>
+                        </template>
+                        <template #default>
+                            <div class="centralize tile-body">
+                                <p>
+                                    QuickRef offers many configuration settings to make the right practice experience for you.
+                                    <ul>
+                                        <li>Show a timer progress bar</li>
+                                        <li>Play chimes to alert you when intervals change</li>
+                                        <li>Change the visibility of toolbars</li>
+                                        <li>And more!</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </template>
                     </Capsule>
 
                     <Capsule id="download">
@@ -159,8 +171,10 @@ const carouselImages = Vue.ref([
                             <!-- direct downloads coming soon... -->
                         </template>
                         <template #footer>
-                            <div class="centralize-h">                                
-                                <iframe frameborder="0" src="https://itch.io/embed/2362802?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="552" height="167"><a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a></iframe>
+                            <div class="centralize-h">
+                                <iframe frameborder="0" src="https://itch.io/embed/2362802?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=b7ffe3&amp;border_color=363636" width="552" height="167">
+                                    <a href="https://siliconcosmos.itch.io/quickref">QuickRef by Silicon Cosmos</a>
+                                </iframe>
                             </div>
                         </template>
 
@@ -168,7 +182,7 @@ const carouselImages = Vue.ref([
                         <div class="centralize" style="padding-bottom: 30px">
                             <div>
                                 <p>QuickRef is available FREE for Windows and MacOS through itch.io</p>
-                                <br/>
+                                <br />
                                 <p>You can use it in these languages: English, Français, Español, Deutsch, Русский</p>
                                 <br>
                                 <p><nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link></p>
@@ -182,7 +196,7 @@ const carouselImages = Vue.ref([
                 </template>
             </Body>
         </div>
-        
+
         <div class="sc-footer">
         </div>
 
@@ -194,7 +208,7 @@ const carouselImages = Vue.ref([
 
 .eyecatch {
     width: 100%;
-    padding: 20px;
+    padding: 0px glob.$whitespace-sm 0px glob.$whitespace-sm;
 }
 .eyecatch-text {
     padding: glob.$whitespace-sm; 
@@ -214,7 +228,7 @@ const carouselImages = Vue.ref([
     }
 }
 .tagline-2 {
-    height: 200px;
+    // height: 175px;
     padding: glob.$whitespace-sm;
     text-shadow: #000 0px 5px 10px;
 }
@@ -241,6 +255,7 @@ const carouselImages = Vue.ref([
 }
 
 .tile-heading {
+    font-size: 1.25em;
     padding-bottom: 15px;
 }
 .tile-body {
@@ -267,18 +282,31 @@ img {
     object-fit: contain;
 }
 
-@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
+@media (min-width: glob.$media-sm) {
+    .tile-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: glob.$media-md) {
+    .eyecatch {
+        padding: glob.$whitespace-sm;
+        padding-bottom: 0px;
+    }
     .eyecatch-text {
         max-width: 450px; 
         padding: glob.$whitespace-lg;
         font-size: large;
     }
     .tagline-2 {
-        height: 100px;
+        // height: 100px;
         padding: glob.$whitespace-md;
     }
     .key-grid {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tile-heading {
+        font-size: 1.75em;
     }
     .tile-body {
         padding-top: unset;
@@ -290,6 +318,9 @@ img {
     .eyecatch-text {
         max-width: 600px; 
         font-size: x-large;
+    }
+    .tile-heading {
+        font-size: 2em;
     }
     .tile-body {
         padding-left: glob.$whitespace-lg;

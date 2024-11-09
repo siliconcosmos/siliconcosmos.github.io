@@ -75,7 +75,7 @@
 }
 
 
-@media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
+@media (min-width: glob.$media-md) {
     .capsule-wrapper {
         flex-direction: row;
     }
