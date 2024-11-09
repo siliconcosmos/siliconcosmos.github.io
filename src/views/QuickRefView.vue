@@ -78,7 +78,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <NuxtImg src="/quickref/landing/quickref_libraries.png" preset="screenshot" />
+                                    <NuxtImg src="/quickref/landing/quickref_mac_libraries.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
@@ -99,7 +99,7 @@ useSeoMeta({
                         <template #left>
                             <div style="width:100%" class="centralize">
                                 <div class="tile-img">
-                                    <NuxtImg src="/quickref/landing/quickref_session_config.png" preset="screenshot" />
+                                    <NuxtImg src="/quickref/landing/quickref_mac_session_config.png" preset="screenshot" />
                                 </div>
                             </div>
                         </template>
