@@ -9,6 +9,9 @@
         
         <template #right>
             <slot name="right"></slot>
+            <div class="qr-nav">
+                <nuxt-link to="/quickref/release-notes">Release Notes</nuxt-link> | <nuxt-link to="/quickref/faq">FAQ</nuxt-link>
+            </div>
         </template>
     </Header>
 </template>
@@ -22,6 +25,17 @@
     width: 100px; 
     transform: translate(0%, 8%);
     transition: glob.$transition-quick;
+}
+
+.qr-nav {
+    display: none;
+    margin-right: glob.$whitespace-xs;
+}
+
+@media (min-width: glob.$media-sm) {
+    .qr-nav {
+        display: inherit;
+    }
 }
 </style>
 

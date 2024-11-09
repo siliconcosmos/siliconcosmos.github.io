@@ -25,9 +25,7 @@
 @use "../assets/global.scss" as glob;
 
 .kofi-link {
-    display: inline-block;
     height: 42px;
-    transform: translate(0%, 2.5%);
 }
 
 .kofi-donate-button {

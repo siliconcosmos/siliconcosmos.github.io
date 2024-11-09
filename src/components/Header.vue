@@ -30,12 +30,14 @@ import KofiDonate from '~/components/KofiDonate.vue';
     padding: 5px 5px 5px 10px;
     display: flex;
     transition: glob.$transition-quick;
+    place-items: center center;
 }
 .logo-img {
     display: inline-block;
     height: 30px; 
     width: 30px; 
-    transform: translate(0%, 26%);
+    // transform: translate(0%, 26%);
+    transform: translate(0%, 8%);
     transition: glob.$transition-quick;
     margin-right: 5px;
 
@@ -73,7 +75,7 @@ import KofiDonate from '~/components/KofiDonate.vue';
     font-weight: 100;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
     .toolbar-main h1 {
         font-size: 1.8em;
     }
