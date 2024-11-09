@@ -150,15 +150,17 @@ useSeoMeta({
                         </template>
                         <template #default>
                             <div class="centralize tile-body">
-                                <p>
-                                    QuickRef offers many configuration settings to make the right practice experience for you.
-                                    <ul>
-                                        <li>Show a timer progress bar</li>
-                                        <li>Play chimes to alert you when intervals change</li>
-                                        <li>Change the visibility of toolbars</li>
-                                        <li>And more!</li>
-                                    </ul>
-                                </p>
+                                <div>
+                                    <p>
+                                        QuickRef offers many configuration settings to make the right practice experience for you.
+                                        <ul>
+                                            <li>Show a timer progress bar</li>
+                                            <li>Play chimes to alert you when intervals change</li>
+                                            <li>Change the visibility of toolbars</li>
+                                            <li>And more!</li>
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
                         </template>
                     </Capsule>
