@@ -44,7 +44,7 @@ useSeoMeta({
 
                         <template #center>
                             <div class="eyecatch-carousel centralize">
-                                <NuxtImg src="/quickref/landing/quickref_start.png" preset="screenshot"/>
+                                <NuxtImg src="/quickref/landing/quickref_mac_start.png" preset="screenshot"/>
                             </div>
                         </template>
                     </CapsuleLayout>
@@ -63,10 +63,10 @@ useSeoMeta({
                                 <NuxtImg src="/quickref/landing/quickref_session_paused.png" preset="screenshot" alt="screenshot of a QuickRef session that is paused" />
                             </div>
                             <div class="tile-img">
-                                <NuxtImg src="/quickref/landing/quickref_session_menu.png" preset="screenshot" alt="screenshot of a QuickRef session that shows an open kebab menu"/>
+                                <NuxtImg src="/quickref/landing/quickref_session_basic.png" preset="screenshot" alt="screenshot of a QuickRef session"/>
                             </div>
                             <div class="tile-img">
-                                <NuxtImg src="/quickref/landing/quickref_session_basic.png" preset="screenshot" alt="screenshot of a QuickRef session"/>
+                                <NuxtImg src="/quickref/landing/quickref_session_menu.png" preset="screenshot" alt="screenshot of a QuickRef session that shows an open kebab menu"/>
                             </div>
                         </div>
                     </CapsuleLayout>
