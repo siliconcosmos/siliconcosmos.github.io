@@ -48,6 +48,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
     // margin: glob.$whitespace-sm glob.$whitespace-sm 0 glob.$whitespace-sm;
     padding: glob.$whitespace-sm;
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
+    backdrop-filter: blur(1.25px);
     transition: padding glob.$transition-slow;
 }
 
