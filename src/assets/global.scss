@@ -21,7 +21,8 @@ $background-bright: #313131;
 $background-dark: #111111;
 
 $border-bright: #606060;
-$border-dim: #303030;
+// $border-dim: #303030;
+$border-dim: scale-color($color: $primary, $alpha: -90%); 
 
 $primary-hover: scale-color($color: $primary, $whiteness: 30%);
 $secondary-hover: scale-color($color: $secondary, $whiteness: 40%);

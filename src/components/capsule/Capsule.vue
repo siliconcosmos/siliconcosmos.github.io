@@ -50,6 +50,7 @@ import CapsuleLayout from './CapsuleLayout.vue';
     background-color: transparentize($color: glob.$background-dark, $amount: 0.5);
     backdrop-filter: blur(1px);
     transition: padding glob.$transition-slow;
+    box-shadow: #111 0px 5px 20px;
 }
 
 @media (min-width: glob.$media-md) {

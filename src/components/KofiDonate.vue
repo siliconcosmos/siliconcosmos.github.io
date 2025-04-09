@@ -43,7 +43,9 @@
     // right: 55px;
 
     min-width: max-content;
-    background-color: glob.$background-bright;
+    // background-color: glob.$background-bright;
+    background-color: glob.$background-dark;
+    box-shadow: #111 0px 5px 20px;
     border: 1px solid glob.$border-bright;
     animation: pop 3s linear none;
     opacity: 0;
@@ -62,7 +64,8 @@
 
     height: 10px;
     width: 10px;
-    background-color: glob.$background-bright;
+    // background-color: glob.$background-bright;
+    background-color: glob.$background-dark;
     border-bottom:inherit;
     border-right:inherit;
     box-shadow:inherit;
