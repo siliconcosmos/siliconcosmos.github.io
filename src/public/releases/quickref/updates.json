@@ -1,6 +1,6 @@
 {
-    "version": "0.8.8",
-    "notes": "Triggered static_update.json route",
+    "version": "0.8.10",
+    "notes": "Triggered updates.json route",
     "pub_date": "2024-11-08T08:44:11Z",
     "platforms": {
         "darwin-x86_64": {
