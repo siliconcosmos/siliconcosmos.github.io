@@ -1,6 +1,6 @@
 {
-    "version": "0.8.12-updatetesttwo",
-    "notes": "Triggered updates.json route",
+    "version": "0.8.11-updatetestone",
+    "notes": "Triggered update_from_version route",
     "pub_date": "2024-11-08T08:44:11Z",
     "platforms": {
         "darwin-x86_64": {
@@ -12,8 +12,8 @@
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef.app.0.8.8.updater.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGk0YmJndTladlVESlFIY05STUVHUHhxNUhqaGIvNlVxYXF1WFZGNkpLb2daZko4cnlvZjRQZnlPUlF3N1dsdHo5YUZvcy92S1FJdXNya242UzlBMXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0NzU4CWZpbGU6UXVpY2tSZWZfMC44LjEyLXVwZGF0ZXRlc3R0d29feDY0LXNldHVwLmV4ZQpZRis4eUdMeXNnOFVmUXJBQk15dmJxNlFydW56S01lUmx1QUlnOGF0aE1DNkg5dnlHck9vV29pSmcrcWQ0ODRTTXc5eW9HZGlTSzExbVpqSks1NHhDdz09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/untagged-9eb7019471a962272b75/QuickRef_0.8.12-updatetesttwo_x64-setup.exe"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHJ4dnFieS9XNVJVVVhXUnpGWVBadzBNaWM3bGN3V1pjYWRTa0xrb0hDZURyMGtaQ0VVTW1lME1md0N5ckFBVU1BazBaTkRMbXVRdXNYb0VjZkhFVHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0MTQyCWZpbGU6UXVpY2tSZWZfMC44LjExLXVwZGF0ZXRlc3RvbmVfeDY0LXNldHVwLm5zaXMuemlwCjNCNkhVTFhEM3JHNVY1OVI3V0NiazNvb2k3VmtSVDlyZU16K2FwUzV0WFhGVHlCbmxDSDljaDBWRHlqb2ZnVVo0YTVCNGFIOHRQRm81QURSMEhva0N3PT0K",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/untagged-9eb7019471a962272b75/QuickRef_0.8.11-updatetestone_x64-setup.nsis.updater.zip"
         }
     }
 }
