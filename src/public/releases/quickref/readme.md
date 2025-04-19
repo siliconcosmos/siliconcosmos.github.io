@@ -18,7 +18,7 @@ Since the update to Tauri 2.x, it is possible to create a special update overrid
 "https://updates.domain.web/releases/quickref/update_from_version/{{current_version}}/update",
 "https://updates.domain.web/releases/quickref/update_from_version/{{current_version}}_update.json",
 ```
-This option may be useful in the event that an incompatability is discovered that breaks the update process or if a faulty update is pushed and needs to be reverted. 
+This option may be useful in the event that an incompatability is discovered that breaks the update process or if a faulty update is pushed and needs to be hotfixed/reverted. 
 
 ### Making an Override
 To utilize this option with a static json update config file, create a file under the "update_from_version" path with a name in the form: `{{installed_version}}_update.json`, with the `{{installed_version}}` token replaced with the version string you want to target. The updater will prioritize this file above the generic shared `updates.json` file.

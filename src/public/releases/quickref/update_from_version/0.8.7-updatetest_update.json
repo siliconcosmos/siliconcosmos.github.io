@@ -5,15 +5,15 @@
     "platforms": {
         "darwin-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHBwWXI4bmQ4YStFeDk2bDdXR0dNNDBVNUJFaEFFaWpJL2g2bk5tOGRXaTYyQkd0VXowNVQ2VXJpSnQzLzJjdXk2b0JtdE1GZ3dQMzdDL2RBM2xJQkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzMxMDc2NTEzCWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negp6YzZwL3NzYmxIbTQ5UjhZa1BWbEpBazMxQVc3MjJwMGhIY2hvS2tRNmRzQnRIRStaK3hISEJPV0FCNlNtNzdKVlM4d1NkNStLMkN4SHd4bUUxZU5DUT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef.app.0.8.8.updater.tar.gzNOTREAL"
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef.app.0.8.8.updater.tar.gz"
         },
         "darwin-aarch64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHBwWXI4bmQ4YStFeDk2bDdXR0dNNDBVNUJFaEFFaWpJL2g2bk5tOGRXaTYyQkd0VXowNVQ2VXJpSnQzLzJjdXk2b0JtdE1GZ3dQMzdDL2RBM2xJQkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzMxMDc2NTEzCWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negp6YzZwL3NzYmxIbTQ5UjhZa1BWbEpBazMxQVc3MjJwMGhIY2hvS2tRNmRzQnRIRStaK3hISEJPV0FCNlNtNzdKVlM4d1NkNStLMkN4SHd4bUUxZU5DUT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef.app.0.8.8.updater.tar.gzNOTREAL"
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef.app.0.8.8.updater.tar.gz"
         },
         "windows-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcG5CRTY0OWVIbURINE5KNXQrYWpYbXVIazlxR0ZVeVN4Q2VaK0VHamthOHF3WTZzdUJ5YkJ3Um9BZ3JlN2V5RWF3bGtMWXh4N1h1REhySHhpSDZmOGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzMxMDcwMzQ1CWZpbGU6UXVpY2tSZWZfMC44LjhfeDY0LXNldHVwLm5zaXMuemlwCmNRVGNVS0FocERHL0wwbDZMYUFhTFF2clB4dVVXU01kTEpyQ1krVURVdTFScEljMnNRcnlLUUN5bm1vTTFSakJMTGRLV05UalgrOHpGQzJKeTJKRkNBPT0K",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef_0.8.8_x64-setup.nsis.updater.zipNOTREAL"
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.8/QuickRef_0.8.8_x64-setup.nsis.updater.zip"
         }
     }
 }
