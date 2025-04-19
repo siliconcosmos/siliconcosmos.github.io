@@ -1,0 +1,19 @@
+{
+    "version": "0.8.11",
+    "notes": "Triggered update_from_version 2 route",
+    "pub_date": "2024-11-08T08:44:11Z",
+    "platforms": {
+        "darwin-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHJUMkZDc0xZcUpJK2pRempzSXRaUEpSN0NMYWFLdGdxLzFXN2tSUnFvVEdyODZaeVhGeW1zR01OdFEzZlFyTDhIUjl3andMTEZaSlhrK0hUd2ZQNndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA0MTQ0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3RUNxbE1vU2JYUVhhaitYaS9uQXBINUpNRUYwRFhSZHVYbVhraEh2eWNua0xLejAxWDBGOHZ1OXk4a1JFNHd2dkc1MVVtM3VxYklpWkszUkVDenZBQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.11-updatetestone.updater.tar.gz"
+        },
+        "darwin-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHJUMkZDc0xZcUpJK2pRempzSXRaUEpSN0NMYWFLdGdxLzFXN2tSUnFvVEdyODZaeVhGeW1zR01OdFEzZlFyTDhIUjl3andMTEZaSlhrK0hUd2ZQNndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA0MTQ0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3RUNxbE1vU2JYUVhhaitYaS9uQXBINUpNRUYwRFhSZHVYbVhraEh2eWNua0xLejAxWDBGOHZ1OXk4a1JFNHd2dkc1MVVtM3VxYklpWkszUkVDenZBQT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.11-updatetestone.updater.tar.gz"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHJ4dnFieS9XNVJVVVhXUnpGWVBadzBNaWM3bGN3V1pjYWRTa0xrb0hDZURyMGtaQ0VVTW1lME1md0N5ckFBVU1BazBaTkRMbXVRdXNYb0VjZkhFVHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0MTQyCWZpbGU6UXVpY2tSZWZfMC44LjExLXVwZGF0ZXRlc3RvbmVfeDY0LXNldHVwLm5zaXMuemlwCjNCNkhVTFhEM3JHNVY1OVI3V0NiazNvb2k3VmtSVDlyZU16K2FwUzV0WFhGVHlCbmxDSDljaDBWRHlqb2ZnVVo0YTVCNGFIOHRQRm81QURSMEhva0N3PT0K",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef_0.8.11-updatetestone_x64-setup.nsis.updater.zip"
+        }
+    }
+}
