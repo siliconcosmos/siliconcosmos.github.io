@@ -4,11 +4,11 @@
     "pub_date": "2024-11-08T08:44:11Z",
     "platforms": {
         "darwin-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGx2eGhFQVJkU1NIWUJCelBHV3F0djlsUkgwcG9kemxGSndMVHVOb0t2MHlqT3dUNlVvMkowenBUUStuUTZGNmtaQkNONlRWYnQzbGdRMyszK1ordEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA0NTE2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCSWlxZTFLNERNYm93ZmNIdEJVT3lFQWhoclNta1dSQUx3SzRmRlVTU2orb2R6bllwU0szZk14M1JmaWVVbE9BaU5INHRNWkJCQ21ySVlBbm9GT0ZBdz09Cg==",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHQ3dC9lNzFmTlE2TmlvT2RXZkhCdnZkQVRVMnRZZGhoS1JYNzJXaW80N3ltMk1NbEpZR3M4eVUrWUxpdHZiaXJXM1NZTExNczlMSUZ3YnBBWGhZY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA5OTg0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCWmRFdjEvdjc3WU9YQndoUHorL3BZRmNlR3Uzc0JFSno0dUdPUmVUZS9vL2JIUVBleTlRNnpjVWt6SUxRNzB4eXp0elUrY2puWFRDYkJUVmtTRGlBUT09Cg==",
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.12-updattesttwo.updater.tar.gz"
         },
         "darwin-aarch64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGx2eGhFQVJkU1NIWUJCelBHV3F0djlsUkgwcG9kemxGSndMVHVOb0t2MHlqT3dUNlVvMkowenBUUStuUTZGNmtaQkNONlRWYnQzbGdRMyszK1ordEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA0NTE2CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCSWlxZTFLNERNYm93ZmNIdEJVT3lFQWhoclNta1dSQUx3SzRmRlVTU2orb2R6bllwU0szZk14M1JmaWVVbE9BaU5INHRNWkJCQ21ySVlBbm9GT0ZBdz09Cg==",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHQ3dC9lNzFmTlE2TmlvT2RXZkhCdnZkQVRVMnRZZGhoS1JYNzJXaW80N3ltMk1NbEpZR3M4eVUrWUxpdHZiaXJXM1NZTExNczlMSUZ3YnBBWGhZY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA5OTg0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCWmRFdjEvdjc3WU9YQndoUHorL3BZRmNlR3Uzc0JFSno0dUdPUmVUZS9vL2JIUVBleTlRNnpjVWt6SUxRNzB4eXp0elUrY2puWFRDYkJUVmtTRGlBUT09Cg==",
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.12-updattesttwo.updater.tar.gz"
         },
         "windows-x86_64": {
