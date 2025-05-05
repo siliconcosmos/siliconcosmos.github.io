@@ -31,6 +31,17 @@ useSeoMeta({
                         <h1>QuickRef - Release Notes</h1>
                     </div>
 
+                    <Capsule id="v0_8_12" class="notes-tile">
+                        <template #header>
+                            <h2>// <a href="#v0_8_12" class="sc-color-text">v0.8.12</a></h2>
+                        </template>
+                        <ul>
+                            <li>Feature: It is now possible to enable/disable the progress bar and session chimes during a session</li>
+                            <li>Improvement: Improve the time input and enable the session config page to recall the last settings used</li>
+                            <li>Improvement: The cursor will now hide when inactive during a session, making fullscreen use more comfortable</li>
+                        </ul>
+                    </Capsule>
+
                     <Capsule id="v0_8_8" class="notes-tile">
                         <template #header>
                             <h2>// <a href="#v0_8_8" class="sc-color-text">v0.8.8</a></h2>
