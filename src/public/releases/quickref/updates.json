@@ -1,19 +1,19 @@
 {
-    "version": "0.8.12-updatetesttwo",
-    "notes": "Triggered updates.json route",
-    "pub_date": "2024-11-08T08:44:11Z",
+    "version": "0.8.12",
+    "notes": "- Feature: It is now possible to enable/disable the progress bar and session chimes during a session\n- Improvement: The cursor will now hide when inactive during a session, making fullscreen use more comfortable\n- Improvement: Improve the time input and enable the session config page to recall the last settings used",
+    "pub_date": "2025-05-04T20:00:00Z",
     "platforms": {
         "darwin-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHQ3dC9lNzFmTlE2TmlvT2RXZkhCdnZkQVRVMnRZZGhoS1JYNzJXaW80N3ltMk1NbEpZR3M4eVUrWUxpdHZiaXJXM1NZTExNczlMSUZ3YnBBWGhZY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA5OTg0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCWmRFdjEvdjc3WU9YQndoUHorL3BZRmNlR3Uzc0JFSno0dUdPUmVUZS9vL2JIUVBleTlRNnpjVWt6SUxRNzB4eXp0elUrY2puWFRDYkJUVmtTRGlBUT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.12-updattesttwo.updater.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZUNk9NQXp1MnlqRWxUL3F3SmR4ellHZjlNUWlrQUJ2ZkEzN05ZaTZtTTdZdW9OdEQwTDFGL1ZGcmlWMW0xSnR6T1lhRU5OQTNNR2VQMlQvV1hvNWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MTk0OTQ5CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3TUROOEtzYm40R2xCZmtvRnpsS2lOTUFHWllMMldxODY0RFhvOGFYeTdyZG5QK1JzWk14bmpRN0NKUmhtbW5GdE8rTE9FWmdEUEF6U2tYOThTL3NCUT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef.app.0.8.12.updater.tar.gz"
         },
         "darwin-aarch64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHQ3dC9lNzFmTlE2TmlvT2RXZkhCdnZkQVRVMnRZZGhoS1JYNzJXaW80N3ltMk1NbEpZR3M4eVUrWUxpdHZiaXJXM1NZTExNczlMSUZ3YnBBWGhZY0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MTA5OTg0CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5negpCWmRFdjEvdjc3WU9YQndoUHorL3BZRmNlR3Uzc0JFSno0dUdPUmVUZS9vL2JIUVBleTlRNnpjVWt6SUxRNzB4eXp0elUrY2puWFRDYkJUVmtTRGlBUT09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef.app.0.8.12-updattesttwo.updater.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZUNk9NQXp1MnlqRWxUL3F3SmR4ellHZjlNUWlrQUJ2ZkEzN05ZaTZtTTdZdW9OdEQwTDFGL1ZGcmlWMW0xSnR6T1lhRU5OQTNNR2VQMlQvV1hvNWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MTk0OTQ5CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3TUROOEtzYm40R2xCZmtvRnpsS2lOTUFHWllMMldxODY0RFhvOGFYeTdyZG5QK1JzWk14bmpRN0NKUmhtbW5GdE8rTE9FWmdEUEF6U2tYOThTL3NCUT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef.app.0.8.12.updater.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGk0YmJndTladlVESlFIY05STUVHUHhxNUhqaGIvNlVxYXF1WFZGNkpLb2daZko4cnlvZjRQZnlPUlF3N1dsdHo5YUZvcy92S1FJdXNya242UzlBMXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0NzU4CWZpbGU6UXVpY2tSZWZfMC44LjEyLXVwZGF0ZXRlc3R0d29feDY0LXNldHVwLmV4ZQpZRis4eUdMeXNnOFVmUXJBQk15dmJxNlFydW56S01lUmx1QUlnOGF0aE1DNkg5dnlHck9vV29pSmcrcWQ0ODRTTXc5eW9HZGlTSzExbVpqSks1NHhDdz09Cg==",
-            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.10-updatetest/QuickRef_0.8.12-updatetesttwo_x64-setup.exe"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGo4bVgxTm16aWlMbGdvbzJxSC9yWVZSc2FmUW5PdHZPMXJWeWhwdjAwT09DRUhtVFovWDV4c0tTT1M1MkN5b3VRN203TzRock9qRzlpT0lOVzFIWVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MjM2OTkxCWZpbGU6UXVpY2tSZWZfMC44LjEyX3g2NC1zZXR1cC5uc2lzLnppcApOb1V2VThDYU9RUW9lVTJqRHZoUExTQU1MOXMvZ3lJaXJMeVZKWjZCUExqWVBWSERrZ2pFbTBjVUFiWXVWTG8xcWloa3c2MFRvcmN2aU9saHhLMmFEUT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef_0.8.12_x64-setup.nsis.updater.zip"
         }
     }
 }
