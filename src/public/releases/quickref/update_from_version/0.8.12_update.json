@@ -1,0 +1,19 @@
+{
+    "version": "0.8.13",
+    "notes": "- Feature: It is now possible to enable/disable the progress bar and session chimes during a session\n- Improvement: The cursor will now hide when inactive during a session, making fullscreen use more comfortable\n- Improvement: Improve the time input and enable the session config page to recall the last settings used",
+    "pub_date": "2025-05-04T20:00:00Z",
+    "platforms": {
+        "darwin-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZUNk9NQXp1MnlqRWxUL3F3SmR4ellHZjlNUWlrQUJ2ZkEzN05ZaTZtTTdZdW9OdEQwTDFGL1ZGcmlWMW0xSnR6T1lhRU5OQTNNR2VQMlQvV1hvNWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MTk0OTQ5CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3TUROOEtzYm40R2xCZmtvRnpsS2lOTUFHWllMMldxODY0RFhvOGFYeTdyZG5QK1JzWk14bmpRN0NKUmhtbW5GdE8rTE9FWmdEUEF6U2tYOThTL3NCUT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef.app.0.8.12.updater.tar.gz"
+        },
+        "darwin-aarch64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHZUNk9NQXp1MnlqRWxUL3F3SmR4ellHZjlNUWlrQUJ2ZkEzN05ZaTZtTTdZdW9OdEQwTDFGL1ZGcmlWMW0xSnR6T1lhRU5OQTNNR2VQMlQvV1hvNWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MTk0OTQ5CWZpbGU6UXVpY2tSZWYuYXBwLnRhci5nego3TUROOEtzYm40R2xCZmtvRnpsS2lOTUFHWllMMldxODY0RFhvOGFYeTdyZG5QK1JzWk14bmpRN0NKUmhtbW5GdE8rTE9FWmdEUEF6U2tYOThTL3NCUT09Cg==",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef.app.0.8.12.updater.tar.gz"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcHJ4dnFieS9XNVJVVVhXUnpGWVBadzBNaWM3bGN3V1pjYWRTa0xrb0hDZURyMGtaQ0VVTW1lME1md0N5ckFBVU1BazBaTkRMbXVRdXNYb0VjZkhFVHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0MTQyCWZpbGU6UXVpY2tSZWZfMC44LjExLXVwZGF0ZXRlc3RvbmVfeDY0LXNldHVwLm5zaXMuemlwCjNCNkhVTFhEM3JHNVY1OVI3V0NiazNvb2k3VmtSVDlyZU16K2FwUzV0WFhGVHlCbmxDSDljaDBWRHlqb2ZnVVo0YTVCNGFIOHRQRm81QURSMEhva0N3PT0K",
+            "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef_0.8.12_x64-setup.nsis.updater.zip"
+        }
+    }
+}
