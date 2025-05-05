@@ -12,7 +12,7 @@
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef.app.0.8.12.updater.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGxQTWNJbm1zeWozR3ZBeHk0Y2M3QUtuVGMrWHFVN1VWcG41QVZNdlFlSzE4MUt1ME5yaDBnZFlER2hEcHhhc2EzbXh0czFzUHJsZ0RFQXlkZ1BJZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ1MDg0NzU4CWZpbGU6UXVpY2tSZWZfMC44LjEyLXVwZGF0ZXRlc3R0d29feDY0LXNldHVwLm5zaXMuemlwCkdYZEFzV2dodGkrbkMzQnJFV09nd0lCQkQ2NlV4OVVYMW9hUmVrR2l5bkRHRlhDa0RqRUxaZjBPNDBrU2NnRkZGajFCNTlWa0pua0hmREw0MDBDbUJnPT0K",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQjNHVU1qbmFLcGo4bVgxTm16aWlMbGdvbzJxSC9yWVZSc2FmUW5PdHZPMXJWeWhwdjAwT09DRUhtVFovWDV4c0tTT1M1MkN5b3VRN203TzRock9qRzlpT0lOVzFIWVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQ2MjM2OTkxCWZpbGU6UXVpY2tSZWZfMC44LjEyX3g2NC1zZXR1cC5uc2lzLnppcApOb1V2VThDYU9RUW9lVTJqRHZoUExTQU1MOXMvZ3lJaXJMeVZKWjZCUExqWVBWSERrZ2pFbTBjVUFiWXVWTG8xcWloa3c2MFRvcmN2aU9saHhLMmFEUT09Cg==",
             "url": "https://github.com/siliconcosmos/quickref-releases/releases/download/v0.8.12/QuickRef_0.8.12_x64-setup.nsis.updater.zip"
         }
     }
