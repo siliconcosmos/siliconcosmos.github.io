@@ -5,7 +5,7 @@ This document describes the management of update files for QuickRef.
 ## Gotchas
 - The `update.json` file should ***NOT be motified*** recklessly
     - This file is referenced by QuickRef versions 0.8.8 and earlier. These versions are based on Tauri 1.x and as such, require special handling to migrate them to a Tauri 2.x based app version.
-    - The content of this update file should be configured such that a compatible migration version will be downloaded. This migration version should follow the new route scheme and enable the user to update into any newer Tauri 2.x based app versions. **As of this writing version 0.8.10 is likely to be the most appropriate version.** *FUTURE SELF: Update this text once the final migration compatible version is known.*
+    - The content of this update file should be configured such that a compatible migration version will be downloaded. This migration version should follow the new route scheme and enable the user to update into any newer Tauri 2.x based app versions. ***The first verson released publicly after 0.8.8 was 0.8.12, use this version as the migration version.***
     - Do not ***delete*** this file unless it has been decided that abandoning users on versions older than 0.8.8 is acceptable. This may happen in the future, but please make this decision with care.
 
 
