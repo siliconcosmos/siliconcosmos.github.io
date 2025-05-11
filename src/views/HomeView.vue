@@ -133,7 +133,6 @@ useSeoMeta({
 }
 
 @media (min-width: glob.$media-sm) {
-// @media (min-width: glob.$media-md) and (min-height: glob.$media-md) {
     .project-img {
         width: 192px;
         height: 192px;

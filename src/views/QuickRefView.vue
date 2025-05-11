@@ -38,7 +38,7 @@ useSeoMeta({
                     <CapsuleLayout class="eyecatch">
                         <template #left>
                             <div class="eyecatch-text centralize">
-                                <h1 class="sc-color-secondary">Practice drawing at speed with your own reference images!</h1>
+                                <h1 class="sc-color-primary">Practice drawing at speed with your own reference images!</h1>
                             </div>
                         </template>
 
